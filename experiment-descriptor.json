@@ -115,8 +115,8 @@
           "unit-type": "task",
           "label": "Red Black Tree Demo",
           "content-type": "simulation",
-          "source": "simulation/RedBlack.html",
-          "target": "RedBlack.html"
+          "source": "simulation/redblack.html",
+          "target": "redblack.html"
         },
 	{
           "unit-type": "task",
