@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Red/Black Tree Visualization 
+		</title>
+		
+		<link rel="stylesheet" href="css/jquery-ui-1.8.11.custom.css">
+		<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../../assets/css/common-styles.css">
+
+					
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>	
+		<script type = "text/javascript" src = "js/lib/CustomEvents.js"> </script>
+		<script type = "text/javascript" src = "js/lib/UndoFunctions.js"> </script>
+		<script type = "text/javascript" src = "js/lib/AnimatedObject.js"> </script>
+		<script type = "text/javascript" src = "js/lib/AnimatedLabel.js"> </script>
+		<script type = "text/javascript" src = "js/lib/AnimatedCircle.js"> </script>
+		<script type = "text/javascript" src = "js/lib/HighlightCircle.js"> </script>
+		<script type = "text/javascript" src = "js/lib/Line.js"> </script>
+		<script type = "text/javascript" src = "js/lib/ObjectManager.js"> </script>
+		<script type = "text/javascript" src = "js/lib/AnimationMain.js"> </script>
+	<script src="../../assets/js/instruction-box.js"></script>	
+		<script type = "text/javascript" src = "js/lib/Algorithm.js"> </script>
+		<script type = "text/javascript" src = "js/RedBlack.js"> </script> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+				
+	 </head> 
+
+
+	<body onload="init();" class="VisualizationMainPage">
+
+	<div class="instruction-box">
+		<button class="collapsible">Instructions</button>
+		<div class="content">
+		  <ul>
+			  <li>Use the artefact below to run visualize insertion, deletion and search in Red Black tree tree.</li> 
+			  <li>You can decrease the <b>speed</b> of the animation by using the <b>animation slider</b>.</li>
+			  <li>It is recommended that you set the speed to a minimum value to visualize each step properly.</li>
+			  <li>To <b>insert</b> the an element in the tree, enter the value in the textbox before insert and then <b>click the INSERT button</b>. Follow same approach for other operations as well.</li>
+			  <li>You can use the <b>Pause</b> button to pause the animation at any point of time.</li>
+			  <li>After animation has been paused, click on the <b>Step Forward</b> and <b>Step Backward</b> button to step through the animation.</li>
+			  <li>The <b>Skip Forward</b> and <b>Skip Backward</b> buttons can be used to undo and redo operations after they have been performed on the tree.</li>
+		  </ul> 
+		</div>
+	</div>		
+
+	<div id = "container">
+		<div id = "mainContent"> 
+			<div id = "algoControlSection" style="text-align:center;">
+				<div id = "AlgorithmSpecificControls"> 
+					<input type="number" class="text-box" id="control-demo-insert-text" placeholder="Insert" />
+					<button class="button-input" id="control-demo-insert-btn">Insert</button>
+					<input type="number" class="text-box" id="control-demo-delete-text" placeholder="Delete" />
+					<button class="button-input" id="control-demo-delete-btn">Delete</button>
+					<input type="number" class="text-box" id="control-demo-find-text" placeholder="Find" />
+					<button class="button-input" id="control-demo-find-btn">Find</button>
+					<button class="button-input" id="control-demo-print">Print</button>
+					<label style="display:none;"><input type="checkbox" id="control-demo-null">Show null Leaves</label>
+				</div>
+			</div>
+
+                        <div class="comment-box" style="margin:auto;padding-top:2%;height:15vh;">
+			    <b>Observations</b>
+			    <p id="nextcomment"> </p>
+			</div>
+                        <canvas id="canvas" width="1200" height="500"></canvas>
+
+			<div id = "generalAnimationControlSection" style="display:none;">
+				<div id="GeneralAnimationControls">		
+				</div>
+			</div>
+		</div> 
+	</div>
+	</body>
+
+	<script>
+		var collapsibleEl = document.getElementsByClassName("collapsible")[0];
+		collapsibleEl.addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+				content.style.maxHeight = null;
+			} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+			} 
+		});
+	</script>
+</html>
