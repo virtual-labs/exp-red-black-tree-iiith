@@ -56,14 +56,7 @@
           "source": "structure-and-properties.md",
           "target": "structure-and-properties.html"
         },
-        {
-          "unit-type": "task",
-          "label": "Pivot Selection and Array Partitioning Demo",
-          "content-type": "simulation",
-          "source": "simulation/partition.html",
-          "target": "partition.html"
-        },
-	
+        
 	{
          "unit-type": "task",
          "label": "Basics of Structure and Properties Quiz",
