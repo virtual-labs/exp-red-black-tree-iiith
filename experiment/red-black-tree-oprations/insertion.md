@@ -3,9 +3,9 @@
 
 ### Uncle and grandparent nodes in a red black tree
 
-    Let Z be the node being studied.
-    Uncle nodes refer to the sibling nodes of the parent node of Z.
-    Grandparent node refer to the parent node of the parent node of Z.
+   - Let Z be the node being studied.
+   - Uncle nodes refer to the sibling nodes of the parent node of Z.
+   - Grandparent node refer to the parent node of the parent node of Z.
 
 ### Pictorial Representation of uncle,parent and grandparent nodes in a red black tree
 <img src="images/uncle.png"/>
