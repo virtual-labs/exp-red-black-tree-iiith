@@ -8,7 +8,7 @@ The maximum height of the red black tree is O(log n). To Maintain this height, r
    - Left Rotation
    - Right Rotation
 
-##W Left Rotation Algorithm
+### W Left Rotation Algorithm
 Let the node to be rotated is x. Let the right subtree of node x be y.
 
    - Turn y's left subtree into x's right subtree.
@@ -28,4 +28,4 @@ Let the node to be rotated is x. Let the left subtree of node x be y.
 <img src="images/leftrotate.png"/>
 
 ### Pictorial Representation of properties of a Right Rotation
-<img src="images/rightrotate.png.png"/>
+<img src="images/rightrotate.png"/>
