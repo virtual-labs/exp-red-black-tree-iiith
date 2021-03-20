@@ -1,0 +1,161 @@
+{
+  "unit-type": "lu",
+  "label": "Red Black Tree",
+  "basedir": ".",
+  "units": [
+    {
+      "unit-type": "aim"
+    },
+    {
+      "unit-type": "task",
+      "label": "Overview",
+      "content-type": "video",
+      "source": "overview.md",
+      "target": "overview.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Pre Test Instructions",
+      "content-type": "video",
+      "source": "pre-test.md",
+      "target": "pre-test.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Pre Test Quiz",
+      "content-type": "assesment",
+      "source": "pretest.js",
+      "target": "pretest.html"
+    },
+    {
+      "unit-type": "lu",
+      "label": "Red Black Tree",
+      "basedir": "red-black-tree",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Red Black Tree Basics",
+          "content-type": "video",
+          "source": "red-black-basics.md",
+          "target": "red-black-basics.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Structure and Properties",
+          "content-type": "video",
+          "source": "structure-and-properties.md",
+          "target": "structure-and-properties.html"
+        },
+        
+	{
+         "unit-type": "task",
+         "label": "Basics of Structure and Properties Quiz",
+         "content-type": "assesment",
+         "source": "basics-of-structure-and-properties-quiz.js",
+         "target": "basics-of-structure-and-properties-quiz.html"
+       }
+      
+      ]
+    },
+   
+        {
+      "unit-type": "lu",
+      "label": "Red Black Tree Operations",
+      "basedir": "red-black-tree-oprations",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+	{
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Rotation",
+          "content-type": "video",
+          "source": "rotation.md",
+          "target": "rotation.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Insertion",
+          "content-type": "video",
+          "source": "insertion.md",
+          "target": "insertion.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Deletion",
+          "content-type": "video",
+          "source": "deletion.md",
+          "target": "deletion.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Search",
+          "content-type": "video",
+          "source": "search.md",
+          "target": "search.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Red Black Tree Demo",
+          "content-type": "simulation",
+          "source": "simulation/redblack.html",
+          "target": "redblack.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Red Black Tree Demo",
+          "content-type": "simulation",
+          "source": "simulation/redblackpractice.html",
+          "target": "redblackpractice.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Red Black Tree Practice",
+          "content-type": "simulation",
+          "source": "simulation/redblackexercise.html",
+          "target": "redblackexercise.html"
+        },
+	{
+         "unit-type": "task",
+         "label": "Red Black Tree operations Quiz",
+         "content-type": "assesment",
+         "source": "red-black-tree-operations-quiz.js",
+         "target": "red-black-tree-operations-quiz.html"
+       }
+      ]
+    },
+    
+    {
+      "unit-type": "task",
+      "label": "Post Test Quiz",
+      "content-type": "assesment",
+      "source": "posttest.js",
+      "target": "posttest.html"
+    },
+       
+    {
+      "unit-type": "task",
+      "label": "Further Readings/References",
+      "content-type": "text",
+      "source": "further-reading-and-references.md",
+      "target": "further-reading-and-references.html"
+    }
+  ]
+}
