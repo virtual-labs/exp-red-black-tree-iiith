@@ -1,3 +1,7 @@
+### Estimated Time
+
+15 minutes
+
 ### Introduction to Red Black Trees
 
 Welcome to this module on Red black Tree! Take a look at what you will go through the module.
