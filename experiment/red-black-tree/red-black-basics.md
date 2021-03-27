@@ -1,4 +1,4 @@
-### Welcome to Red Black Tree Experiment!
+
 <iframe src="https://www.youtube.com/embed/mEtIeulc48Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### What is Red Black Tree?

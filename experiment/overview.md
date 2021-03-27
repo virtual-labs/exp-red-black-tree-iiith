@@ -1,5 +1,4 @@
 
-### Introduction to Red Black Tree
 <iframe src="https://www.youtube.com/embed/mEtIeulc48Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Prerequisites of the Experiment
