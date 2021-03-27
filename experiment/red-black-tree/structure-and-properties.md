@@ -1,11 +1,11 @@
 ### Structure of Red Black Tree
 Each node contains the following fields:
 
-   - key
-   - left – pointer to the root of left subtree.
-   - right – pointer to the root of right subtree.
-   - parent – pointer to the parent node.
-   - color- color of the node, either RED or BLACK
+   - Key
+   - Left – pointer to the root of left subtree.
+   - Right – pointer to the root of right subtree.
+   - Parent – pointer to the parent node.
+   - Color- color of the node, either RED or BLACK
 
 ### Properties of Red Black Tree
 

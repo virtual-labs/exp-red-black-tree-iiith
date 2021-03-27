@@ -5,11 +5,12 @@
 ### Prerequisites of the Experiment
 
   Basic knowledge of
-    - [Binary Trees](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html)
 
-    - [Binary Search Trees](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+   - [Binary Trees](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html)
 
-    - [AVL Trees](https://www.geeksforgeeks.org/tag/avl-tree/)
+   - [Binary Search Trees](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+
+   - [AVL Trees](https://www.geeksforgeeks.org/tag/avl-tree/)
 
     And above all, a curiosity to learn and explore..!
 

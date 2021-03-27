@@ -32,7 +32,7 @@
         
 	{
           "unit-type": "task",
-          "label": " Basics",
+          "label": " Concept",
           "content-type": "video",
           "source": "red-black-basics.md",
           "target": "red-black-basics.html"
@@ -95,21 +95,21 @@
         },
 	{
           "unit-type": "task",
-          "label": "  Demo",
+          "label": "Demo",
           "content-type": "simulation",
           "source": "simulation/redblack.html",
           "target": "redblack.html"
         },
 	{
           "unit-type": "task",
-          "label": "Red Black Tree Demo",
+          "label": "Demo",
           "content-type": "simulation",
           "source": "simulation/redblackpractice.html",
           "target": "redblackpractice.html"
         },
         {
           "unit-type": "task",
-          "label": "Red Black Tree Practice",
+          "label": "Practice",
           "content-type": "simulation",
           "source": "simulation/redblackexercise.html",
           "target": "redblackexercise.html"
