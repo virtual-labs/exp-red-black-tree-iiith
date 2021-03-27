@@ -2,9 +2,9 @@
 
 25 minutes
 
-### Introduction to rotations,insertions,deletions and search in red black trees
+### Introduction to rotations, insertions, deletions and search in red black trees
 
-Welcome to this module on insertions in red black trees.! Take a look at what you will go through in this module.
+Welcome to this module on insertions in red black trees.! You will be learn about: 
 
   -  Left and right rotations of trees.
   -  Insertion of nodes in a red black tree.
