@@ -1,4 +1,4 @@
-### Insertion Algorithm
+
 <iframe src="https://www.youtube.com/embed/CO-QPo-nQoU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Uncle and grandparent nodes in a red black tree

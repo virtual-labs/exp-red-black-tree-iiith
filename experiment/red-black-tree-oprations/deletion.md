@@ -1,4 +1,4 @@
-### Deletion Algorithm
+
 <iframe src="https://www.youtube.com/embed/ViCPHRlUofY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Recap of Deletion in a Binary Search Tree
