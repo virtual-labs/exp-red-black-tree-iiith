@@ -1,6 +1,10 @@
-### Introduction to Red Black Trees
+### Estimated Time
 
-Welcome to this module on Red black Tree! Take a look at what you will go through the module.
+15 minutes
+
+### Learning Objectives of Red Black Trees
+
+Welcome to this module on Red black Tree! You will be learn about: 
 
    - What is Red Black Tree?
    - Representation of Red Black Tree
