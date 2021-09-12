@@ -1,1 +1,73 @@
-[{"question":"1. Time Complexity of insertion in Red Black Tree with n nodes is ______. ","answers":{"a":"None of the mentioned","b":"O(n)","c":"O(log n) ","d":"O(1)"},"correctAnswer":"c"},{"question":"2. Breadth First Traversal of a tree can be used for ____________.","answers":{"a":"Finding the shortest distance to every other node from the root in the tree","b":"None of the Above.","c":" Finding strongly connected components in the tree.","d":"Finding cycles in the tree."},"correctAnswer":"a"},{"question":"3. What is common in three different types of traversals (Inorder, Preorder and Postorder)?","answers":{"a":"Root is visited before the right subtree.","b":" Left subtree is always visited before the right subtree.","c":"Root is visited after the left subtree. ","d":"All of the above. "},"correctAnswer":"b"},{"question":"4. A binary tree can be uniquely re-constructed from ____________.","answers":{"a":" All of the above. ","b":"Preorder and Postorder traversal.","c":" Inorder and Preorder traversal.","d":"Only Inorder traversal. "},"correctAnswer":"c"},{"question":"5. The inorder and preorder traversal of a binary tree are d b e a f c g and a b d e c f g respectively. The postorder traversal of the binary tree is____________.","answers":{"a":"d e b f g a c ","b":"d e b f g c a ","c":"e d b g f c a ","d":"d e f g b c a "},"correctAnswer":"b"}]
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. What are the two types of rotations in Red Black Trees?",
+            "answers": {
+                "a": "Breadth, Depth",
+                "b": "Top, Bottom",
+                "c": "Left, Right",
+                "d": "None of these"
+            },
+            "correctAnswer": "c",
+            "explanations": {},
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. When nodes are assigned a color once in Red Black trees, their colors cannot change again.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "Rotations in Red Black Trees might end up changing the relation between nodes. Therefore, red nodes can change to black nodes and vice-versa."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "3. Why are color restrictions imposed in Red Black Trees?",
+            "answers": {
+                "a": "To obtain logarithmic time complexity",
+                "b": "To maintain the special property of red and black colors of Red Black tree",
+                "c": "To differentiate between root node and other nodes",
+                "d": "To point out the nodes where rotations can be performed"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Color restrictions are imposed so that a height balanced binary tree can be maintained and ultimately time complexities for Search, Insertion, and Deletion can be obtained in logarithmic time.",
+                "b": "Color restrictions do contribute to the special property of the Red Black Trees, however that is not their primary aim.",
+                "c": "Root node is of black color and so are children of red nodes. Just color will not be enough to differentiate between root nodes and other nodes in Red Black trees with multiple levels.",
+                "d": "Ideally, rotations can be performed anywhere in the Red Black Tree. There is no need to distinguish between nodes that can be or cannot be used for performing rotation."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "4. Red Black Trees will perform better than AVL Trees when the primary operations required are Deletion and Insertion.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Even though both AVL and Red Black trees are height balanced trees, when there is a considerable amount of insertion or/and deletion operations involved, it would be better to use Red Black trees. This is due to the fact that the number of rotations will be more in AVL Trees than in Red Black trees. Due to less number of rotations Red Black Trees perform better than AVL Trees in operations involving Insertion and/or Deletion."
+            },
+            "difficulty": "advanced"
+        },
+        {
+            "question": "5. Why are Red Black Trees considered better than Hash Tables in certain scenarios?",
+            "answers": {
+                "a": "Because they do not have resizing issues like Hash Tables and also offer better ordering.",
+                "b": "Because they are height balanced",
+                "c": "Because they have O (log n) time complexity for Searching, Insertion, and Deletion",
+                "d": "None of these"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Red Black Trees can be easily resized unlike Hash Tables where the user needs to perform Rehashing and rehashing is a time costly process. Moreover, if the ordering of the Hash Table is not done in an efficient manner and there exist many empty buckets of memory, it would result in memory wastage and time costs when dealing with large datasets. Red Black Trees will be the better of two in such cases."
+            },
+            "difficulty": "advanced"
+        }
+    ]
+}
+ 
