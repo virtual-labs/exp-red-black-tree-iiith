@@ -18,7 +18,7 @@
       "unit-type": "task",
       "label": "Pre Test Quiz",
       "content-type": "assesment",
-      "source": "pretest.js",
+      "source": "pretest.json",
       "target": "pretest.html"
     },
     {
@@ -30,7 +30,7 @@
           "unit-type": "aim"
         },
         
-	{
+      	{
           "unit-type": "task",
           "label": " Concept",
           "content-type": "video",
@@ -45,11 +45,11 @@
           "target": "structure-and-properties.html"
         },
         
-	{
+      	{
          "unit-type": "task",
          "label": " Quiz",
          "content-type": "assesment",
-         "source": "basics-of-structure-and-properties-quiz.js",
+         "source": "basics-of-structure-and-properties-quiz.json",
          "target": "basics-of-structure-and-properties-quiz.html"
        }
       
@@ -79,28 +79,28 @@
           "source": "insertion.md",
           "target": "insertion.html"
         },
-	{
+	      {
           "unit-type": "task",
           "label": "Deletion",
           "content-type": "video",
           "source": "deletion.md",
           "target": "deletion.html"
         },
-	{
+      	{
           "unit-type": "task",
           "label": "Search",
           "content-type": "video",
           "source": "search.md",
           "target": "search.html"
         },
-	{
+	      {
           "unit-type": "task",
           "label": "Demo",
           "content-type": "simulation",
           "source": "simulation/redblack.html",
           "target": "redblack.html"
         },
-	{
+      	{
           "unit-type": "task",
           "label": "Practice",
           "content-type": "simulation",
@@ -114,13 +114,13 @@
           "source": "simulation/redblackexercise.html",
           "target": "redblackexercise.html"
         },
-	{
+	      {
          "unit-type": "task",
          "label": " Quiz",
          "content-type": "assesment",
-         "source": "red-black-tree-operations-quiz.js",
+         "source": "red-black-tree-operations-quiz.json",
          "target": "red-black-tree-operations-quiz.html"
-       }
+        }
       ]
     },
     
@@ -128,7 +128,7 @@
       "unit-type": "task",
       "label": "Post Test Quiz",
       "content-type": "assesment",
-      "source": "posttest.js",
+      "source": "posttest.json",
       "target": "posttest.html"
     },
        
