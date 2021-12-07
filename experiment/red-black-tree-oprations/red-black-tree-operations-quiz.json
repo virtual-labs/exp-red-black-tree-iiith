@@ -1,0 +1,82 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. What is the worst case Time Complexity for Searching, Insertion, and Deletion in a Red Black tree? Let \u2018n\u2019 be the number of nodes.",
+            "answers": {
+                "a": "O (n)",
+                "b": "O (log n)",
+                "c": "O (1)",
+                "d": "None of these"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "Red Black trees will always have a maximum height of O (log n). Therefore, the searching, inserting, and deleting operations can be carried out in O (log n) time complexity even in the worst case."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "2. What is the use of Rotations in Red Black Trees?",
+            "answers": {
+                "a": "To increase height of a subtree",
+                "b": "To decrease height of a subtree",
+                "c": "To maintain the maximum height as O (log n)",
+                "d": "To change the order of elements"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "a": "Increasing the height of a subtree may make the whole tree unbalanced in height which would mean that the tree no longer satisfies the definition of a Red Black tree.",
+                "b": "Decreasing the height of a subtree may make the whole tree unbalanced which would mean that the tree no longer satisfies the definition of a Red Black tree.",
+                "c": "The true purpose of rotations is to restructure the tree in such a way that the maximum height of O (log n) is maintained and the order of elements is not changed.",
+                "d": "Changing the order of elements defeats the true purpose of Rotations."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "3. Let Z be the node to be inserted in the RB Tree. The uncle node of Z is black. Node Z, its parent node, and its grandparent node form a line. How would you insert it?",
+            "answers": {
+                "a": "Color the node as black.",
+                "b": "Rotate the grandparent of Z and recolor the parent and grandparent of Z to fix violations.",
+                "c": "Rotate parent of Z",
+                "d": "Recolor grandparent of Z"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "a": "This would be applicable when Z is given as the root node.",
+                "b": "This would resolve all conflicts and ensure that no properties are violated.",
+                "c": "This would be applicable when the Z node, its parent node, and its grandparent node form a triangle instead of a line.",
+                "d": "Simple recoloring the grandparent will not be enough as it will still cause violations."
+            },
+            "difficulty": "advanced"
+        },
+        {
+            "question": "4. How would you delete a Red Leaf node?",
+            "answers": {
+                "a": "Simply delete the leaf node",
+                "b": "Recolor the red node to black",
+                "c": "Delete the leaf node and recolor its parent to red",
+                "d": "None of these"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Simply deleting the node would be enough as it does not cause any violation of any property of Red Black Trees.",
+                "b": "This would cause a violation of property of RB trees as the parent and child nodes both would be colored Black. Moreover, the purpose would be defeated as the node would still exist in the tree.",
+                "c": "Recoloring the parent node to Red would cause violation as both parent and grandparent would be colored Red then."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "5. How to search for a node whose value is less than that of the root node?",
+            "answers": {
+                "a": "Traverse recursively along the left subtree",
+                "b": "Traverse recursively along the right subtree"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Nodes with values smaller than the parent node will always be on the left subtree.",
+                "b": "This would help us to find a node whose value is greater than the root node as right subtree nodes will store value greater than that of the parent node."
+            },
+            "difficulty": "intermediate"
+        }
+    ]
+}

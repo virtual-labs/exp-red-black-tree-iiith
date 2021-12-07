@@ -1,0 +1,49 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. What is the special or unique property of Red Black Trees that makes it different from a normal Binary search tree?",
+            "answers": {
+                "a": "They use colors Red and Black to represent nodes.",
+                "b": "They are height balanced",
+                "c": "They guarantee a O (log n) worst case time complexity for Insertion and Deletion",
+                "d": "None of these"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "As the name suggests, Red Black Trees have colored nodes which can take the form of either Red or Black color. The Root node however is always black in color.",
+                "b": "There are other trees like AVL Trees that are height balanced as well. This property is not unique to Red Black Trees.",
+                "c": "There other binary search trees like AVL Trees which have the same worst case time complexity for Insertion and Deletion."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. If a node is of Red color, then what can be determined about its parent node?",
+            "answers": {
+                "a": "Parent node is the Root node",
+                "b": "Color of parent node is Black",
+                "c": "Color of parent node is Red",
+                "d": "None of these"
+            },
+            "correctAnswer": "b",
+            "explanations": {},
+            "difficulty": "beginner"
+        },
+        {
+            "question": "3. Why have Red Black trees been invented and used?",
+            "answers": {
+                "a": "There was a need for a type of balanced tree that can be used to organize comparable data.",
+                "b": "There was a need for a colored balanced tree",
+                "c": "There was a need for a type of tree data structure that had O (log n) worst case time complexity for Insertion and Deletion",
+                "d": "None of these"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "This new type of balanced tree data structure was derived from the symmetric binary-B tree. The color scheme would be helpful in determining the relationships between nodes and make it possible to compare data in an easier manner. Using the colors Red and Black exactly was due to the limitations of resources at that time. This makes Red Black trees a very good choice for implementing Kernel schedulers and data structures like maps and sets.",
+                "b": "Just having colored trees would not serve any useful purpose. There should be some logic and reasoning behind it.",
+                "c": "There exist other binary search trees like AVL Trees which have the same worst case time complexity for Insertion and Deletion."
+            },
+            "difficulty": "intermediate"
+        }
+    ]
+}
