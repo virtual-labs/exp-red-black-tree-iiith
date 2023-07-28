@@ -1,0 +1,823 @@
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/posttest.js
+  18:6   warning  'letter' is not defined  no-undef
+  22:63  warning  'letter' is not defined  no-undef
+  23:3   warning  'letter' is not defined  no-undef
+  24:27  warning  'letter' is not defined  no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/bootstrap.min.js
+  6:319    warning  'jQuery' is not defined                 no-undef
+  6:1071   warning  'jQuery' is not defined                 no-undef
+  6:2016   warning  'jQuery' is not defined                 no-undef
+  6:3965   warning  'jQuery' is not defined                 no-undef
+  6:8001   warning  'jQuery' is not defined                 no-undef
+  6:11369  warning  'jQuery' is not defined                 no-undef
+  6:13732  warning  'jQuery' is not defined                 no-undef
+  6:19734  warning  'jQuery' is not defined                 no-undef
+  6:27338  warning  'a' is assigned a value but never used  no-unused-vars
+  6:28677  warning  'jQuery' is not defined                 no-undef
+  6:30264  warning  'jQuery' is not defined                 no-undef
+  7:648    warning  'jQuery' is not defined                 no-undef
+  7:2468   warning  'jQuery' is not defined                 no-undef
+  7:4879   warning  'jQuery' is not defined                 no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/catalog.js
+  1:5  warning  'catalog' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/experiment.js
+   47:5   warning  'restrucureTheDivs' is assigned a value but never used     no-unused-vars
+   74:5   warning  'createTocAndSections' is assigned a value but never used  no-unused-vars
+   82:2   warning  Unnecessary semicolon                                      no-extra-semi
+   84:5   warning  'setHash' is assigned a value but never used               no-unused-vars
+  154:5   warning  '$' is not defined                                         no-undef
+  159:3   warning  '$' is not defined                                         no-undef
+  159:39  warning  'e' is defined but never used                              no-unused-vars
+  161:5   warning  'hash_path' is not defined                                 no-undef
+  162:31  warning  'hash_path' is not defined                                 no-undef
+  163:17  warning  'hash_path' is not defined                                 no-undef
+  173:2   warning  Unnecessary semicolon                                      no-extra-semi
+  175:1   warning  '$' is not defined                                         no-undef
+  190:3   warning  '$' is not defined                                         no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/get.resource.js
+  12:12  warning  'createHtmlElementWithClass' is not defined  no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:863    warning  'b' is assigned a value but never used                                     no-unused-vars
+  2:3050   warning  'r' is assigned a value but never used                                     no-unused-vars
+  2:5376   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:5847   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6101   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6532   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6758   warning  Empty block statement                                                      no-empty
+  2:7320   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9378   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9688   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11489  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12064  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12102  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12520  warning  Empty block statement                                                      no-empty
+  2:13134  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13446  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15271  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15542  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15740  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16114  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16815  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19155  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19255  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19315  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20674  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21288  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21399  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23719  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:33344  warning  Empty block statement                                                      no-empty
+  2:37050  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:38265  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:38405  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:39039  warning  Empty block statement                                                      no-empty
+  2:45778  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:48087  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:49647  warning  Empty block statement                                                      no-empty
+  2:57298  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:59847  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64132  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65877  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65943  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66247  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66313  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66720  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66997  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:72432  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74924  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75645  warning  'l.href' is assigned to itself                                             no-self-assign
+  2:79204  warning  Empty block statement                                                      no-empty
+  2:83243  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:83243  warning  'l' is assigned a value but never used                                     no-unused-vars
+  2:86651  warning  'define' is not defined                                                    no-undef
+  2:86663  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/labtheme.js
+    1:1   warning  '$' is not defined             no-undef
+   45:3   warning  '$' is not defined             no-undef
+   47:3   warning  '$' is not defined             no-undef
+   47:35  warning  '$' is not defined             no-undef
+   73:3   warning  'main' is not defined          no-undef
+   73:10  warning  '$' is not defined             no-undef
+   74:3   warning  '$' is not defined             no-undef
+   74:5   warning  'main' is not defined          no-undef
+   77:3   warning  'contents' is not defined      no-undef
+   77:14  warning  '$' is not defined             no-undef
+   77:16  warning  'main' is not defined          no-undef
+   78:3   warning  '$' is not defined             no-undef
+   79:3   warning  'childs' is not defined        no-undef
+   79:12  warning  'main' is not defined          no-undef
+   80:7   warning  'idx' is not defined           no-undef
+   80:14  warning  'idx' is not defined           no-undef
+   80:18  warning  'childs' is not defined        no-undef
+   80:32  warning  'idx' is not defined           no-undef
+   81:5   warning  'cld' is not defined           no-undef
+   81:11  warning  'childs' is not defined        no-undef
+   81:18  warning  'idx' is not defined           no-undef
+   82:8   warning  'cld' is not defined           no-undef
+   83:13  warning  'cld' is not defined           no-undef
+   84:7   warning  'cld' is not defined           no-undef
+   85:7   warning  '$' is not defined             no-undef
+   85:9   warning  'cld' is not defined           no-undef
+   86:7   warning  '$' is not defined             no-undef
+   86:9   warning  'cld' is not defined           no-undef
+   87:7   warning  'text' is not defined          no-undef
+   87:14  warning  'childs' is not defined        no-undef
+   87:21  warning  'idx' is not defined           no-undef
+   88:7   warning  'link' is not defined          no-undef
+   88:87  warning  'text' is not defined          no-undef
+   89:7   warning  'childs' is not defined        no-undef
+   89:14  warning  'idx' is not defined           no-undef
+   89:31  warning  'link' is not defined          no-undef
+   89:38  warning  'cld' is not defined           no-undef
+   90:6   warning  Unnecessary semicolon          no-extra-semi
+   91:4   warning  Unnecessary semicolon          no-extra-semi
+   92:3   warning  'lists' is not defined         no-undef
+   92:11  warning  '$' is not defined             no-undef
+   92:13  warning  'main' is not defined          no-undef
+   93:13  warning  'lists' is not defined         no-undef
+   94:8   warning  'lists' is not defined         no-undef
+   95:7   warning  'lists' is not defined         no-undef
+   95:45  warning  'lists' is not defined         no-undef
+   95:91  warning  'lists' is not defined         no-undef
+   98:3   warning  'iHtml' is not defined         no-undef
+   98:11  warning  'main' is not defined          no-undef
+   99:3   warning  '$' is not defined             no-undef
+  100:3   warning  'str' is not defined           no-undef
+  117:3   warning  'str' is not defined           no-undef
+  117:9   warning  'str' is not defined           no-undef
+  117:15  warning  'iHtml' is not defined         no-undef
+  118:3   warning  'str' is not defined           no-undef
+  118:9   warning  'str' is not defined           no-undef
+  119:3   warning  '$' is not defined             no-undef
+  119:21  warning  'str' is not defined           no-undef
+  120:3   warning  'main' is not defined          no-undef
+  121:3   warning  '$' is not defined             no-undef
+  135:3   warning  '$' is not defined             no-undef
+  135:5   warning  'contents' is not defined      no-undef
+  136:3   warning  '$' is not defined             no-undef
+  136:5   warning  'contents' is not defined      no-undef
+  137:3   warning  '$' is not defined             no-undef
+  137:5   warning  'contents' is not defined      no-undef
+  139:3   warning  'str' is not defined           no-undef
+  141:3   warning  'cld' is not defined           no-undef
+  141:9   warning  '$' is not defined             no-undef
+  141:11  warning  'contents' is not defined      no-undef
+  142:11  warning  'i' is already defined         no-redeclare
+  142:17  warning  'cld' is not defined           no-undef
+  144:7   warning  'str' is not defined           no-undef
+  144:13  warning  'str' is not defined           no-undef
+  146:9   warning  '$' is not defined             no-undef
+  146:11  warning  'cld' is not defined           no-undef
+  147:7   warning  'iHTML' is not defined         no-undef
+  148:7   warning  'headText' is not defined      no-undef
+  148:18  warning  'cld' is not defined           no-undef
+  149:7   warning  'subChilds' is not defined     no-undef
+  149:19  warning  'cld' is not defined           no-undef
+  150:7   warning  'innerContent' is not defined  no-undef
+  151:21  warning  'subChilds' is not defined     no-undef
+  152:9   warning  'iHTML' is not defined         no-undef
+  153:12  warning  'subChilds' is not defined     no-undef
+  154:11  warning  'iText' is not defined         no-undef
+  154:19  warning  'subChilds' is not defined     no-undef
+  155:11  warning  'iHTML' is not defined         no-undef
+  155:36  warning  'headText' is not defined      no-undef
+  155:49  warning  'iText' is not defined         no-undef
+  155:71  warning  'iText' is not defined         no-undef
+  158:11  warning  'iHTML' is not defined         no-undef
+  158:19  warning  'iHTML' is not defined         no-undef
+  158:27  warning  'subChilds' is not defined     no-undef
+  160:9   warning  'innerContent' is not defined  no-undef
+  160:24  warning  'innerContent' is not defined  no-undef
+  160:39  warning  'iHTML' is not defined         no-undef
+  162:7   warning  'col' is not defined           no-undef
+  164:29  warning  'headText' is not defined      no-undef
+  164:54  warning  'headText' is not defined      no-undef
+  167:19  warning  'innerContent' is not defined  no-undef
+  171:7   warning  'str' is not defined           no-undef
+  171:13  warning  'str' is not defined           no-undef
+  171:19  warning  'col' is not defined           no-undef
+  174:7   warning  'col' is not defined           no-undef
+  176:19  warning  'cld' is not defined           no-undef
+  181:7   warning  'str' is not defined           no-undef
+  181:13  warning  'str' is not defined           no-undef
+  184:3   warning  '$' is not defined             no-undef
+  184:26  warning  'str' is not defined           no-undef
+  185:3   warning  '$' is not defined             no-undef
+  186:8   warning  '$' is not defined             no-undef
+  187:7   warning  '$' is not defined             no-undef
+  190:8   warning  '$' is not defined             no-undef
+  191:7   warning  '$' is not defined             no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/org-info.js
+   16:60   warning  'idx' is not defined                                   no-undef
+   27:9    warning  'a' is already defined                                 no-redeclare
+   28:28   warning  'a' is already defined                                 no-redeclare
+   31:515  warning  Unnecessary escape character: \'                       no-useless-escape
+   31:517  warning  Unnecessary escape character: \"                       no-useless-escape
+   31:524  warning  Unnecessary escape character: \'                       no-useless-escape
+   31:526  warning  Unnecessary escape character: \"                       no-useless-escape
+   32:38   warning  'orgInfoHooks' is not defined                          no-undef
+   32:63   warning  'orgInfoHooks' is not defined                          no-undef
+   33:76   warning  'c' is already defined                                 no-redeclare
+   41:87   warning  'b' is assigned a value but never used                 no-unused-vars
+   47:64   warning  'l' is assigned a value but never used                 no-unused-vars
+   76:89   warning  'd' is already defined                                 no-redeclare
+   89:1    warning  Unreachable code                                       no-unreachable
+   92:58   warning  's' is not defined                                     no-undef
+   92:70   warning  's' is not defined                                     no-undef
+   92:113  warning  's' is not defined                                     no-undef
+  102:37   warning  's' is not defined                                     no-undef
+  103:5    warning  'e' is assigned a value but never used                 no-unused-vars
+  119:81   warning  'overview' is assigned a value but never used          no-unused-vars
+  120:5    warning  'content' is assigned a value but never used           no-unused-vars
+  120:35   warning  'showall' is assigned a value but never used           no-unused-vars
+  120:61   warning  'info' is assigned a value but never used              no-unused-vars
+  120:85   warning  'info_title_above' is assigned a value but never used  no-unused-vars
+  121:5    warning  'slide' is assigned a value but never used             no-unused-vars
+  123:34   warning  'f' is assigned a value but never used                 no-unused-vars
+  123:66   warning  'a' is assigned a value but never used                 no-unused-vars
+  132:29   warning  'a' is already defined                                 no-redeclare
+  151:9    warning  'a' is already defined                                 no-redeclare
+  151:33   warning  'j' is already defined                                 no-redeclare
+  151:75   warning  'c' is already defined                                 no-redeclare
+  152:10   warning  'b' is already defined                                 no-redeclare
+  163:38   warning  'a' is already defined                                 no-redeclare
+  164:34   warning  'a' is already defined                                 no-redeclare
+  176:52   warning  'b' is already defined                                 no-redeclare
+  184:80   warning  'c' is defined but never used                          no-unused-vars
+  184:82   warning  'a' is defined but never used                          no-unused-vars
+  203:81   warning  'e' is already defined                                 no-redeclare
+  204:5    warning  'a' is already defined                                 no-redeclare
+  237:43   warning  'd' is already defined                                 no-redeclare
+  239:72   warning  'g' is already defined                                 no-redeclare
+  240:15   warning  'e' is already defined                                 no-redeclare
+  240:55   warning  'd' is already defined                                 no-redeclare
+  242:43   warning  'd' is already defined                                 no-redeclare
+  244:72   warning  'g' is already defined                                 no-redeclare
+  245:45   warning  'd' is already defined                                 no-redeclare
+  247:70   warning  'd' is already defined                                 no-redeclare
+  248:57   warning  'd' is already defined                                 no-redeclare
+  252:27   warning  'h' is already defined                                 no-redeclare
+  255:27   warning  'h' is already defined                                 no-redeclare
+  259:231  warning  Unnecessary escape character: \"                       no-useless-escape
+  266:91   warning  'a' is already defined                                 no-redeclare
+  288:11   warning  'OrgHtmlManagerLoadCheck' is defined but never used    no-unused-vars
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/parser.js
+  194:5  warning  'createLUs' is assigned a value but never used  no-unused-vars
+  209:5  warning  'clearBody' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/readtheorg.js
+   2:1   warning  '$' is not defined  no-undef
+   3:5   warning  '$' is not defined  no-undef
+   4:5   warning  '$' is not defined  no-undef
+   5:5   warning  '$' is not defined  no-undef
+   6:5   warning  '$' is not defined  no-undef
+   7:5   warning  '$' is not defined  no-undef
+   8:5   warning  '$' is not defined  no-undef
+   9:5   warning  '$' is not defined  no-undef
+  10:5   warning  '$' is not defined  no-undef
+  11:5   warning  '$' is not defined  no-undef
+  12:5   warning  '$' is not defined  no-undef
+  15:1   warning  '$' is not defined  no-undef
+  18:5   warning  '$' is not defined  no-undef
+  19:7   warning  '$' is not defined  no-undef
+  20:7   warning  '$' is not defined  no-undef
+  23:5   warning  '$' is not defined  no-undef
+  24:7   warning  '$' is not defined  no-undef
+  25:7   warning  '$' is not defined  no-undef
+  27:5   warning  '$' is not defined  no-undef
+  28:7   warning  '$' is not defined  no-undef
+  31:5   warning  '$' is not defined  no-undef
+  34:1   warning  '$' is not defined  no-undef
+  35:5   warning  '$' is not defined  no-undef
+  38:5   warning  '$' is not defined  no-undef
+  41:5   warning  '$' is not defined  no-undef
+  44:22  warning  '$' is not defined  no-undef
+  45:28  warning  '$' is not defined  no-undef
+  49:25  warning  '$' is not defined  no-undef
+  50:5   warning  '$' is not defined  no-undef
+  53:20  warning  '$' is not defined  no-undef
+  54:20  warning  '$' is not defined  no-undef
+  86:3   warning  '$' is not defined  no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/js/router.js
+   10:5   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+   18:4   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  159:24  warning  'hashPath' is defined but never used          no-unused-vars
+  182:15  warning  'catalog' is not defined                      no-undef
+  186:22  warning  'getHtmlContentFromUrl' is not defined        no-undef
+  245:2   warning  Unnecessary semicolon                         no-extra-semi
+  248:5   warning  'setHash' is assigned a value but never used  no-unused-vars
+  254:3   warning  '$' is not defined                            no-undef
+  254:39  warning  'e' is defined but never used                 no-unused-vars
+  269:2   warning  Unnecessary semicolon                         no-extra-semi
+  272:1   warning  '$' is not defined                            no-undef
+  273:19  warning  'createLUs' is not defined                    no-undef
+  274:3   warning  'clearBody' is not defined                    no-undef
+  286:3   warning  '$' is not defined                            no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/docs/style/lib/js/jquery.stickytableheaders.min.js
+  1:4623  warning  'jQuery' is not defined  no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/RedBlack.js
+     1:10  warning  'displayComment' is defined but never used                  no-unused-vars
+     3:2   warning  '$' is not defined                                          no-undef
+    12:26  warning  'Algorithm' is not defined                                  no-undef
+    14:23  warning  'Algorithm' is not defined                                  no-undef
+    56:38  warning  Unnecessary semicolon                                       no-extra-semi
+    66:2   warning  'stepschosen' is not defined                                no-undef
+    69:6   warning  'k' is not defined                                          no-undef
+    69:10  warning  'k' is not defined                                          no-undef
+    69:37  warning  'k' is not defined                                          no-undef
+    71:3   warning  'animationManager' is not defined                           no-undef
+    74:2   warning  '$' is not defined                                          no-undef
+    89:5   warning  'HIGHLIGHT_LABEL_COLOR' is assigned a value but never used  no-unused-vars
+    90:5   warning  'HIGHLIGHT_LINK_COLOR' is assigned a value but never used   no-unused-vars
+    95:5   warning  'BACKGROUND_COLOR' is assigned a value but never used       no-unused-vars
+   105:5   warning  'FIRST_PRINT_POS_X' is already defined                      no-redeclare
+   106:5   warning  'PRINT_VERTICAL_GAP' is already defined                     no-redeclare
+   107:5   warning  'PRINT_HORIZONTAL_GAP' is already defined                   no-redeclare
+   111:5   warning  'steps' is assigned a value but never used                  no-unused-vars
+   112:5   warning  'reasons' is assigned a value but never used                no-unused-vars
+   114:5   warning  'ptr' is assigned a value but never used                    no-unused-vars
+   123:46  warning  'event' is defined but never used                           no-unused-vars
+   136:46  warning  'event' is defined but never used                           no-unused-vars
+   150:44  warning  'event' is defined but never used                           no-unused-vars
+   164:45  warning  'event' is defined but never used                           no-unused-vars
+   173:54  warning  'event' is defined but never used                           no-unused-vars
+   185:41  warning  'unused' is defined but never used                          no-unused-vars
+   367:2   warning  'treeNodeID' is not defined                                 no-undef
+   368:27  warning  'treeNodeID' is not defined                                 no-undef
+   369:33  warning  'treeNodeID' is not defined                                 no-undef
+   370:33  warning  'treeNodeID' is not defined                                 no-undef
+   371:36  warning  'treeNodeID' is not defined                                 no-undef
+   372:23  warning  'treeNodeID' is not defined                                 no-undef
+   376:38  warning  'treeNodeID' is not defined                                 no-undef
+   431:6   warning  't3' is assigned a value but never used                     no-unused-vars
+   433:6   warning  't1' is assigned a value but never used                     no-unused-vars
+   484:6   warning  't1' is assigned a value but never used                     no-unused-vars
+   486:6   warning  't3' is assigned a value but never used                     no-unused-vars
+  1493:41  warning  'event' is defined but never used                           no-unused-vars
+  1507:40  warning  'event' is defined but never used                           no-unused-vars
+  1550:5   warning  'currentAlg' is assigned a value but never used             no-unused-vars
+  1552:10  warning  'init' is defined but never used                            no-unused-vars
+  1554:18  warning  'initCanvas' is not defined                                 no-undef
+  1555:39  warning  'canvas' is not defined                                     no-undef
+  1555:53  warning  'canvas' is not defined                                     no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/RedBlackExercise.js
+     1:10  warning  'displayComment' is defined but never used                  no-unused-vars
+     3:2   warning  '$' is not defined                                          no-undef
+    11:26  warning  'Algorithm' is not defined                                  no-undef
+    13:23  warning  'Algorithm' is not defined                                  no-undef
+    75:6   warning  'k' is not defined                                          no-undef
+    75:10  warning  'k' is not defined                                          no-undef
+    75:37  warning  'k' is not defined                                          no-undef
+    77:4   warning  'animationManager' is not defined                           no-undef
+    98:5   warning  'HIGHLIGHT_LABEL_COLOR' is assigned a value but never used  no-unused-vars
+    99:5   warning  'HIGHLIGHT_LINK_COLOR' is assigned a value but never used   no-unused-vars
+   104:5   warning  'BACKGROUND_COLOR' is assigned a value but never used       no-unused-vars
+   114:5   warning  'FIRST_PRINT_POS_X' is already defined                      no-redeclare
+   115:5   warning  'PRINT_VERTICAL_GAP' is already defined                     no-redeclare
+   116:5   warning  'PRINT_HORIZONTAL_GAP' is already defined                   no-redeclare
+   129:46  warning  'event' is defined but never used                           no-unused-vars
+   147:44  warning  'event' is defined but never used                           no-unused-vars
+   150:2   warning  'i' is not defined                                          no-undef
+   151:2   warning  'wrong' is not defined                                      no-undef
+   152:2   warning  'wrongsteps' is not defined                                 no-undef
+   153:6   warning  'i' is not defined                                          no-undef
+   153:10  warning  'i' is not defined                                          no-undef
+   153:25  warning  'i' is not defined                                          no-undef
+   155:12  warning  'i' is not defined                                          no-undef
+   155:28  warning  'i' is not defined                                          no-undef
+   157:4   warning  'wrongsteps' is not defined                                 no-undef
+   157:20  warning  'i' is not defined                                          no-undef
+   158:4   warning  'wrong' is not defined                                      no-undef
+   163:3   warning  Unnecessary semicolon                                       no-extra-semi
+   165:5   warning  'wrong' is not defined                                      no-undef
+   174:4   warning  'string1' is not defined                                    no-undef
+   176:5   warning  'string1' is not defined                                    no-undef
+   176:13  warning  'string1' is not defined                                    no-undef
+   176:29  warning  'wrongsteps' is not defined                                 no-undef
+   179:53  warning  'string1' is not defined                                    no-undef
+   185:6   warning  'k' is assigned a value but never used                      no-unused-vars
+   204:47  warning  'event' is defined but never used                           no-unused-vars
+   232:48  warning  'event' is defined but never used                           no-unused-vars
+   245:49  warning  'event' is defined but never used                           no-unused-vars
+   260:38  warning  'event' is defined but never used                           no-unused-vars
+   274:49  warning  'event' is defined but never used                           no-unused-vars
+   287:50  warning  'event' is defined but never used                           no-unused-vars
+   314:46  warning  'event' is defined but never used                           no-unused-vars
+   328:44  warning  'event' is defined but never used                           no-unused-vars
+   342:45  warning  'event' is defined but never used                           no-unused-vars
+   351:54  warning  'event' is defined but never used                           no-unused-vars
+   363:41  warning  'unused' is defined but never used                          no-unused-vars
+   545:2   warning  'treeNodeID' is not defined                                 no-undef
+   546:27  warning  'treeNodeID' is not defined                                 no-undef
+   547:33  warning  'treeNodeID' is not defined                                 no-undef
+   548:33  warning  'treeNodeID' is not defined                                 no-undef
+   549:36  warning  'treeNodeID' is not defined                                 no-undef
+   550:23  warning  'treeNodeID' is not defined                                 no-undef
+   554:38  warning  'treeNodeID' is not defined                                 no-undef
+   609:6   warning  't3' is assigned a value but never used                     no-unused-vars
+   611:6   warning  't1' is assigned a value but never used                     no-unused-vars
+   662:6   warning  't1' is assigned a value but never used                     no-unused-vars
+   664:6   warning  't3' is assigned a value but never used                     no-unused-vars
+  1671:41  warning  'event' is defined but never used                           no-unused-vars
+  1686:40  warning  'event' is defined but never used                           no-unused-vars
+  1727:5   warning  'currentAlg' is assigned a value but never used             no-unused-vars
+  1729:10  warning  'init' is defined but never used                            no-unused-vars
+  1731:18  warning  'initCanvas' is not defined                                 no-undef
+  1732:39  warning  'canvas' is not defined                                     no-undef
+  1732:53  warning  'canvas' is not defined                                     no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/RedBlackPractice.js
+     1:10  warning  'displayComment' is defined but never used                  no-unused-vars
+     3:2   warning  '$' is not defined                                          no-undef
+    12:26  warning  'Algorithm' is not defined                                  no-undef
+    14:23  warning  'Algorithm' is not defined                                  no-undef
+    65:6   warning  'k' is not defined                                          no-undef
+    65:10  warning  'k' is not defined                                          no-undef
+    65:37  warning  'k' is not defined                                          no-undef
+    67:4   warning  'animationManager' is not defined                           no-undef
+    87:5   warning  'HIGHLIGHT_LABEL_COLOR' is assigned a value but never used  no-unused-vars
+    88:5   warning  'HIGHLIGHT_LINK_COLOR' is assigned a value but never used   no-unused-vars
+    93:5   warning  'BACKGROUND_COLOR' is assigned a value but never used       no-unused-vars
+   103:5   warning  'FIRST_PRINT_POS_X' is already defined                      no-redeclare
+   104:5   warning  'PRINT_VERTICAL_GAP' is already defined                     no-redeclare
+   105:5   warning  'PRINT_HORIZONTAL_GAP' is already defined                   no-redeclare
+   113:44  warning  'event' is defined but never used                           no-unused-vars
+   116:2   warning  'i' is not defined                                          no-undef
+   117:2   warning  'wrong' is not defined                                      no-undef
+   118:2   warning  'wrongsteps' is not defined                                 no-undef
+   119:6   warning  'i' is not defined                                          no-undef
+   119:10  warning  'i' is not defined                                          no-undef
+   119:25  warning  'i' is not defined                                          no-undef
+   121:12  warning  'i' is not defined                                          no-undef
+   121:16  warning  'stepschosen' is not defined                                no-undef
+   121:28  warning  'i' is not defined                                          no-undef
+   123:4   warning  'wrongsteps' is not defined                                 no-undef
+   123:20  warning  'i' is not defined                                          no-undef
+   124:4   warning  'wrong' is not defined                                      no-undef
+   127:3   warning  Unnecessary semicolon                                       no-extra-semi
+   129:5   warning  'wrong' is not defined                                      no-undef
+   135:3   warning  'string1' is not defined                                    no-undef
+   136:3   warning  'string1' is not defined                                    no-undef
+   136:11  warning  'string1' is not defined                                    no-undef
+   136:19  warning  'reasons' is not defined                                    no-undef
+   136:27  warning  'wrongsteps' is not defined                                 no-undef
+   137:52  warning  'string1' is not defined                                    no-undef
+   140:6   warning  'k' is assigned a value but never used                      no-unused-vars
+   148:47  warning  'event' is defined but never used                           no-unused-vars
+   166:48  warning  'event' is defined but never used                           no-unused-vars
+   182:49  warning  'event' is defined but never used                           no-unused-vars
+   195:38  warning  'event' is defined but never used                           no-unused-vars
+   206:49  warning  'event' is defined but never used                           no-unused-vars
+   221:50  warning  'event' is defined but never used                           no-unused-vars
+   236:46  warning  'event' is defined but never used                           no-unused-vars
+   264:46  warning  'event' is defined but never used                           no-unused-vars
+   278:44  warning  'event' is defined but never used                           no-unused-vars
+   290:45  warning  'event' is defined but never used                           no-unused-vars
+   296:54  warning  'event' is defined but never used                           no-unused-vars
+   309:41  warning  'unused' is defined but never used                          no-unused-vars
+   483:2   warning  'treeNodeID' is not defined                                 no-undef
+   484:27  warning  'treeNodeID' is not defined                                 no-undef
+   485:33  warning  'treeNodeID' is not defined                                 no-undef
+   486:33  warning  'treeNodeID' is not defined                                 no-undef
+   487:36  warning  'treeNodeID' is not defined                                 no-undef
+   488:23  warning  'treeNodeID' is not defined                                 no-undef
+   492:38  warning  'treeNodeID' is not defined                                 no-undef
+   547:6   warning  't3' is assigned a value but never used                     no-unused-vars
+   549:6   warning  't1' is assigned a value but never used                     no-unused-vars
+   600:6   warning  't1' is assigned a value but never used                     no-unused-vars
+   602:6   warning  't3' is assigned a value but never used                     no-unused-vars
+  1609:41  warning  'event' is defined but never used                           no-unused-vars
+  1623:40  warning  'event' is defined but never used                           no-unused-vars
+  1663:5   warning  'currentAlg' is assigned a value but never used             no-unused-vars
+  1665:10  warning  'init' is defined but never used                            no-unused-vars
+  1667:18  warning  'initCanvas' is not defined                                 no-undef
+  1668:39  warning  'canvas' is not defined                                     no-undef
+  1668:53  warning  'canvas' is not defined                                     no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/Algorithm.js
+    1:10  warning  'addLabelToAlgorithmBar' is defined but never used             no-unused-vars
+   14:10  warning  'addCheckboxToAlgorithmBar' is defined but never used          no-unused-vars
+   36:10  warning  'addRadioButtonGroupToAlgorithmBar' is defined but never used  no-unused-vars
+   67:10  warning  'addControlToAlgorithmBar' is defined but never used           no-unused-vars
+  103:20  warning  'am' is defined but never used                                 no-unused-vars
+  162:44  warning  'newWidth' is defined but never used                           no-unused-vars
+  162:54  warning  'newHeight' is defined but never used                          no-unused-vars
+  204:42  warning  'event' is defined but never used                              no-unused-vars
+  209:41  warning  'event' is defined but never used                              no-unused-vars
+  261:4   warning  Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  267:4   warning  Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  268:4   warning  Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  286:1   warning  Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  307:2   warning  Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  310:4   warning  Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  331:37  warning  'event' is defined but never used                              no-unused-vars
+  373:7   warning  'i' is not defined                                             no-undef
+  373:14  warning  'i' is not defined                                             no-undef
+  373:36  warning  'i' is not defined                                             no-undef
+  375:49  warning  'i' is not defined                                             no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/AnimatedCircle.js
+   17:32  warning  'AnimatedObject' is not defined          no-undef
+   20:75  warning  'anchorPoint' is defined but never used  no-unused-vars
+   31:1   warning  'AnimatedObject' is not defined          no-undef
+  103:4   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  108:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  109:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  113:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  114:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  122:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  138:7   warning  'mid' is already defined                 no-redeclare
+  139:7   warning  'i' is already defined                   no-redeclare
+  170:34  warning  'UndoBlock' is not defined               no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/AnimatedLabel.js
+   21:31  warning  'AnimatedObject' is not defined           no-undef
+   55:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+   62:2   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+   68:6   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+   79:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+   80:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+   88:2   warning  'strList' is not defined                  no-undef
+   89:6   warning  'strList' is not defined                  no-undef
+  101:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  102:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  106:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  107:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  116:42  warning  'strList' is not defined                  no-undef
+  117:23  warning  'strList' is not defined                  no-undef
+  119:17  warning  'strList' is not defined                  no-undef
+  202:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  226:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  230:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  270:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  283:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  286:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  287:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  288:2   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  289:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  290:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  291:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  293:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  301:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  305:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  308:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  309:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  314:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  318:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  327:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  331:1   warning  Mixed spaces and tabs                     no-mixed-spaces-and-tabs
+  352:75  warning  'anchorPoint' is defined but never used   no-unused-vars
+  362:53  warning  'textIndex' is defined but never used     no-unused-vars
+  362:64  warning  'initialWidth' is defined but never used  no-unused-vars
+  364:2   warning  'displayComment' is not defined           no-undef
+  382:33  warning  'UndoBlock' is not defined                no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/AnimatedObject.js
+   91:46  warning  'newWidth' is defined but never used     no-unused-vars
+  208:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  266:61  warning  'fromX' is defined but never used        no-unused-vars
+  266:68  warning  'fromY' is defined but never used        no-unused-vars
+  266:75  warning  'anchorPoint' is defined but never used  no-unused-vars
+  272:61  warning  'fromX' is defined but never used        no-unused-vars
+  272:68  warning  'fromY' is defined but never used        no-unused-vars
+  289:45  warning  'index' is defined but never used        no-unused-vars
+  294:50  warning  'textIndex' is defined but never used    no-unused-vars
+  299:57  warning  'textIndex' is defined but never used    no-unused-vars
+  304:54  warning  'textIndex' is defined but never used    no-unused-vars
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/AnimationMain.js
+    12:10  warning  'swapControlDiv' is defined but never used        no-unused-vars
+    46:6   warning  'cookieValue' is assigned a value but never used  no-unused-vars
+    69:5   warning  'sizeButton' is defined but never used            no-unused-vars
+    72:10  warning  'returnSubmit' is defined but never used          no-unused-vars
+    96:8   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+    98:2   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   101:4   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   104:9   warning  'controlKey' is not defined                       no-undef
+   107:1   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   114:10  warning  'animWaiting' is defined but never used           no-unused-vars
+   135:10  warning  'animEnded' is defined but never used             no-unused-vars
+   149:10  warning  'anumUndoUnavailable' is defined but never used   no-unused-vars
+   156:10  warning  'timeout' is defined but never used               no-unused-vars
+   167:10  warning  'doStep' is defined but never used                no-unused-vars
+   173:10  warning  'doSkip' is defined but never used                no-unused-vars
+   179:10  warning  'doSkipBack' is defined but never used            no-unused-vars
+   185:10  warning  'doStepBack' is defined but never used            no-unused-vars
+   209:10  warning  'addControl' is defined but never used            no-unused-vars
+   209:33  warning  'location' is defined but never used              no-unused-vars
+   272:10  warning  'initCanvas' is defined but never used            no-unused-vars
+   275:22  warning  'ObjectManager' is not defined                    no-undef
+   341:2   warning  '$' is not defined                                no-undef
+   342:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   343:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   344:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   345:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   347:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   348:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   349:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   350:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   352:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   383:1   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   545:24  warning  'UndoCreate' is not defined                       no-undef
+   595:18  warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   605:13  warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   612:24  warning  'UndoConnect' is not defined                      no-undef
+   625:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   636:5   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   643:24  warning  'UndoCreate' is not defined                       no-undef
+   656:24  warning  'UndoMove' is not defined                         no-undef
+   668:9   warning  'nextAnim' is already defined                     no-redeclare
+   669:8   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   670:8   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   671:8   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   672:8   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   674:24  warning  'UndoMove' is not defined                         no-undef
+   684:9   warning  'id' is already defined                           no-redeclare
+   687:24  warning  'UndoSetForegroundColor' is not defined           no-undef
+   694:24  warning  'UndoSetBackgroundColor' is not defined           no-undef
+   700:24  warning  'UndoHighlight' is not defined                    no-undef
+   714:24  warning  'UndoSetAlpha' is not defined                     no-undef
+   724:26  warning  'UndoSetText' is not defined                      no-undef
+   733:26  warning  'UndoSetText' is not defined                      no-undef
+   739:9   warning  'objectID' is already defined                     no-redeclare
+   741:9   warning  'i' is defined but never used                     no-unused-vars
+   768:24  warning  'UndoCreate' is not defined                       no-undef
+   787:24  warning  'UndoCreate' is not defined                       no-undef
+   794:9   warning  'oldColor' is already defined                     no-redeclare
+   795:24  warning  'UndoSetEdgeColor' is not defined                 no-undef
+   799:9   warning  'from' is already defined                         no-redeclare
+   800:9   warning  'to' is already defined                           no-redeclare
+   803:24  warning  'UndoSetEdgeAlpha' is not defined                 no-undef
+   809:9   warning  'newHighlight' is already defined                 no-redeclare
+   810:9   warning  'from' is already defined                         no-redeclare
+   811:9   warning  'to' is already defined                           no-redeclare
+   813:24  warning  'UndoHighlightEdge' is not defined                no-undef
+   820:24  warning  'UndoSetHeight' is not defined                    no-undef
+   834:3   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   835:3   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   844:25  warning  'UndoCreate' is not defined                       no-undef
+   852:24  warning  'UndoSetNull' is not defined                      no-undef
+   860:25  warning  'UndoSetTextColor' is not defined                 no-undef
+   866:25  warning  'UndoSetTextColor' is not defined                 no-undef
+   875:3   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+   877:24  warning  'UndoCreate' is not defined                       no-undef
+   882:9   warning  'id' is already defined                           no-redeclare
+   885:24  warning  'UndoSetWidth' is not defined                     no-undef
+   890:24  warning  'UndoSetNumElements' is not defined               no-undef
+   895:9   warning  'id' is already defined                           no-redeclare
+   898:24  warning  'UndoSetPosition' is not defined                  no-undef
+   903:9   warning  'id' is already defined                           no-redeclare
+   904:9   warning  'oldX' is already defined                         no-redeclare
+   905:9   warning  'oldY' is already defined                         no-redeclare
+   906:24  warning  'UndoSetPosition' is not defined                  no-undef
+   911:9   warning  'id' is already defined                           no-redeclare
+   912:9   warning  'oldX' is already defined                         no-redeclare
+   913:9   warning  'oldY' is already defined                         no-redeclare
+   914:24  warning  'UndoSetPosition' is not defined                  no-undef
+   919:9   warning  'id' is already defined                           no-redeclare
+   920:9   warning  'oldX' is already defined                         no-redeclare
+   921:9   warning  'oldY' is already defined                         no-redeclare
+   922:24  warning  'UndoSetPosition' is not defined                  no-undef
+   927:9   warning  'id' is already defined                           no-redeclare
+   928:9   warning  'oldX' is already defined                         no-redeclare
+   929:9   warning  'oldY' is already defined                         no-redeclare
+   930:24  warning  'UndoSetPosition' is not defined                  no-undef
+   940:9   warning  'id' is already defined                           no-redeclare
+   943:24  warning  'UndoSetHighlightIndex' is not defined            no-undef
+  1128:10  warning  'objectID' is already defined                     no-redeclare
+  1240:1   warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+  1254:13  warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+  1255:13  warning  Mixed spaces and tabs                             no-mixed-spaces-and-tabs
+  1261:10  warning  'oldX' is assigned a value but never used         no-unused-vars
+  1262:10  warning  'oldY' is assigned a value but never used         no-unused-vars
+  1263:10  warning  'targetX' is assigned a value but never used      no-unused-vars
+  1264:10  warning  'targety' is assigned a value but never used      no-unused-vars
+  1304:34  warning  'EventListener' is not defined                    no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/HighlightCircle.js
+  12:33  warning  'AnimatedObject' is not defined  no-undef
+  45:43  warning  'UndoBlock' is not defined       no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/Line.js
+    4:5   warning  'LINE_highlightDiff' is assigned a value but never used  no-unused-vars
+    7:10  warning  'Line' is defined but never used                         no-unused-vars
+   29:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   33:3   warning  'Dirty' is not defined                                   no-undef
+   35:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   40:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   43:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   44:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   45:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   46:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   47:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   48:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   48:6   warning  'Dirty' is not defined                                   no-undef
+   49:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   51:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   52:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   57:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   58:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   63:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   64:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   67:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   68:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   69:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   70:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   71:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   72:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   73:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   74:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   77:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+   86:7   warning  'fromPos' is already defined                             no-redeclare
+   87:7   warning  'toPos' is already defined                               no-redeclare
+  147:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  148:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  149:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  150:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  151:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  152:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  153:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  154:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  155:3   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  156:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  157:2   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  162:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  163:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  164:1   warning  Mixed spaces and tabs                                    no-mixed-spaces-and-tabs
+  195:51  warning  'animationList' is defined but never used                no-unused-vars
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/ObjectManager.js
+    1:10  warning  'ObjectManager' is defined but never used       no-unused-vars
+   12:26  warning  'AnimatedLabel' is not defined                  no-undef
+  100:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  102:21  warning  'HighlightCircle' is not defined                no-undef
+  206:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  255:14  warning  'i' is already defined                          no-redeclare
+  257:10  warning  'nextEdge' is already defined                   no-redeclare
+  261:12  warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  482:7   warning  'OldObject' is assigned a value but never used  no-unused-vars
+  510:22  warning  'AnimatedCircle' is not defined                 no-undef
+  530:4   warning  'w' is not defined                              no-undef
+  536:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  551:3   warning  'displayComment' is not defined                 no-undef
+  555:4   warning  Unreachable code                                no-unreachable
+  589:15  warning  'Line' is not defined                           no-undef
+  688:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  698:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  741:22  warning  'AnimatedLabel' is not defined                  no-undef
+  751:4   warning  Unreachable code                                no-unreachable
+  753:22  warning  'AnimatedLinkedList' is not defined             no-undef
+  757:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  762:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  769:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  770:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  771:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  772:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  773:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  773:40  warning  'Nodes' is not defined                          no-undef
+  774:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  775:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  776:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  778:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  778:22  warning  'AnimatedBTreeNode' is not defined              no-undef
+  779:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  780:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  782:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  783:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  784:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  785:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  786:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  787:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  788:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  788:22  warning  'AnimatedRectangle' is not defined              no-undef
+  789:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  790:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  791:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  792:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  793:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/lib/UndoFunctions.js
+   6:49  warning  'animationList' is defined but never used  no-unused-vars
+  11:48  warning  'world' is defined but never used          no-unused-vars
+  33:21  warning  'SingleAnimation' is not defined           no-undef
+
+/home/runner/work/exp-red-black-tree-iiith/exp-red-black-tree-iiith/experiment/red-black-tree-oprations/simulation/js/realization.js
+  1:5  warning  'realizationCatalog' is assigned a value but never used  no-unused-vars
+
+✖ 769 problems (0 errors, 769 warnings)
+  0 errors and 9 warnings potentially fixable with the `--fix` option.
+
