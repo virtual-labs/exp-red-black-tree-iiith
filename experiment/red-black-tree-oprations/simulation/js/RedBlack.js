@@ -138,7 +138,7 @@ RedBlack.prototype.deleteCallback = function(event)
 	var deletedValue = this.deleteField.value;
 	if (deletedValue != "")
 	{
-		deletedValue = this.normalizeNumber(deletedValue, 1);
+		// deletedValue = this.normalizeNumber(deletedValue, 1);
 		this.deleteField.value = "";
 		this.implementAction(this.deleteElement.bind(this),deletedValue);		
 	}
@@ -152,7 +152,7 @@ RedBlack.prototype.findCallback = function(event)
 	var findValue = this.findField.value;
 	if (findValue != "")
 	{
-		findValue = this.normalizeNumber(findValue, 1);
+		// findValue = this.normalizeNumber(findValue, 1);
 		this.findField.value = "";
 		this.implementAction(this.findElement.bind(this),findValue);		
 	}
