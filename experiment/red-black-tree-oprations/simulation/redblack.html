@@ -26,6 +26,140 @@
 		<script type = "text/javascript" src = "js/RedBlack.js"> </script> 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<style>
+			/* Mobile-specific styles - only apply on small screens */
+			@media (max-width: 768px) {
+				#AlgorithmSpecificControls {
+					display: flex;
+					flex-direction: column;
+					align-items: stretch;
+					padding: 10px !important;
+					gap: 10px;
+				}
+				
+				#AlgorithmSpecificControls .text-box,
+				#AlgorithmSpecificControls .button-input {
+					width: 100% !important;
+					max-width: none !important;
+					margin: 0 !important;
+					display: block;
+				}
+				
+				/* Group input + button pairs */
+				#control-demo-insert-text,
+				#control-demo-insert-btn {
+					display: inline-block !important;
+					width: 48% !important;
+				}
+				
+				#control-demo-delete-text,
+				#control-demo-delete-btn {
+					display: inline-block !important;
+					width: 48% !important;
+				}
+				
+				#control-demo-find-text,
+				#control-demo-find-btn {
+					display: inline-block !important;
+					width: 48% !important;
+				}
+				
+				/* Standalone buttons take full width */
+				#control-demo-print,
+				#control-demo-history,
+				#control-demo-reset {
+					width: 100% !important;
+					display: block !important;
+				}
+				
+				/* Observations box - full width and proper spacing */
+				.comment-box {
+					width: 95% !important;
+					max-width: 95% !important;
+					margin: 15px auto !important;
+					padding: 15px !important;
+					height: auto !important;
+					min-height: 100px !important;
+					box-sizing: border-box !important;
+					clear: both !important;
+					overflow-wrap: break-word !important;
+					word-wrap: break-word !important;
+				}
+				
+				.comment-box p {
+					font-size: 14px !important;
+					line-height: 1.5 !important;
+					margin: 5px 0 !important;
+				}
+				
+				/* Canvas container adjustments */
+				#mainContent {
+					display: flex !important;
+					flex-direction: column !important;
+					width: 100% !important;
+					overflow-x: hidden !important;
+				}
+				
+				/* Canvas scaling for mobile - make tree larger and visible, preserve aspect ratio for circular nodes */
+				#canvas {
+					width: 100% !important;
+					height: 600px !important;
+					max-width: 100% !important;
+					display: block !important;
+					margin: 20px auto !important;
+					border: 1px solid #ccc !important;
+					image-rendering: -webkit-optimize-contrast !important;
+					image-rendering: crisp-edges !important;
+				}
+				
+				/* Container adjustments */
+				#container {
+					width: 100% !important;
+					overflow-x: hidden !important;
+				}
+				
+				#algoControlSection {
+					width: 100% !important;
+					margin-bottom: 10px !important;
+				}
+			}
+			
+			/* Landscape mobile mode - when width > height, prevent overlap */
+			@media (max-width: 768px) and (orientation: landscape) {
+				#mainContent {
+					display: flex !important;
+					flex-direction: column !important;
+					gap: 10px !important;
+					padding: 5px !important;
+				}
+				
+				#canvas {
+					width: 100% !important;
+					height: 300px !important;
+					margin: 5px auto !important;
+					flex-shrink: 0 !important;
+					order: 1 !important;
+				}
+				
+				.comment-box {
+					width: 95% !important;
+					min-height: 60px !important;
+					margin: 5px auto !important;
+					padding: 10px !important;
+					flex-shrink: 0 !important;
+					max-height: 100px !important;
+					overflow-y: auto !important;
+					order: 2 !important;
+				}
+				
+				#algoControlSection {
+					width: 100% !important;
+					order: 0 !important;
+					margin-bottom: 5px !important;
+				}
+			}
+		</style>
 				
 	 </head> 
 

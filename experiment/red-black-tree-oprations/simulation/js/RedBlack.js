@@ -96,10 +96,12 @@ RedBlack.prototype.resetCallback = function(event)
 		lastObservation = "";
 	}
 	
-	// Clear everything by skipping back all animations
-	while(this.animationManager.AnimationSteps.length > 0)
-	{
-		this.animationManager.skipBack();
+	// Clear everything by skipping back all animations (with safety checks)
+	if(this.animationManager && this.animationManager.AnimationSteps) {
+		while(this.animationManager.AnimationSteps.length > 0)
+		{
+			this.animationManager.skipBack();
+		}
 	}
 	
 	// Reset the tree state
