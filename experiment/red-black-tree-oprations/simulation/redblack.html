@@ -36,13 +36,13 @@
 		<button class="collapsible">Instructions</button>
 		<div class="content">
 		  <ul>
-			  <li>Use the artefact below to run visualize insertion, deletion and search in Red Black tree tree.</li> 
-			  <li>You can decrease the <b>speed</b> of the animation by using the <b>animation slider</b>.</li>
-			  <li>It is recommended that you set the speed to a minimum value to visualize each step properly.</li>
-			  <li>To <b>insert</b> the an element in the tree, enter the value in the textbox before insert and then <b>click the INSERT button</b>. Follow same approach for other operations as well.</li>
-			  <li>You can use the <b>Pause</b> button to pause the animation at any point of time.</li>
-			  <li>After animation has been paused, click on the <b>Step Forward</b> and <b>Step Backward</b> button to step through the animation.</li>
-			  <li>The <b>Skip Forward</b> and <b>Skip Backward</b> buttons can be used to undo and redo operations after they have been performed on the tree.</li>
+			  <li>Use this tool to visualize <b>insertion</b>, <b>deletion</b>, and <b>search</b> operations in a Red-Black tree.</li>
+			  <li>To <b>insert</b> a value, enter a number in the textbox next to "Insert" and click the <b>Insert</b> button.</li>
+			  <li>To <b>delete</b> a value, enter a number in the textbox next to "Delete" and click the <b>Delete</b> button.</li>
+			  <li>To <b>search</b> for a value, enter a number in the textbox next to "Find" and click the <b>Find</b> button.</li>
+			  <li>Click <b>Print</b> to display the tree values in sorted order (in-order traversal) at the bottom of the page.</li>
+			  <li>Watch the <b>Observations</b> section to see step-by-step explanations during operations.</li>
+			  <li>Click <b>View Observations History</b> to review all previous observations from the current session.</li>
 		  </ul> 
 		</div>
 	</div>		
@@ -50,25 +50,35 @@
 	<div id = "container">
 		<div id = "mainContent"> 
 			<div id = "algoControlSection" style="text-align:center;">
-				<div id = "AlgorithmSpecificControls"> 
-					<input type="number" class="text-box" id="control-demo-insert-text" placeholder="Insert" />
-					<button class="button-input" id="control-demo-insert-btn">Insert</button>
-					<input type="number" class="text-box" id="control-demo-delete-text" placeholder="Delete" />
-					<button class="button-input" id="control-demo-delete-btn">Delete</button>
-					<input type="number" class="text-box" id="control-demo-find-text" placeholder="Find" />
-					<button class="button-input" id="control-demo-find-btn">Find</button>
-					<button class="button-input" id="control-demo-print">Print</button>
-					<label style="display:none;"><input type="checkbox" id="control-demo-null">Show null Leaves</label>
-				</div>
+			<div id = "AlgorithmSpecificControls"> 
+				<input type="number" class="text-box" id="control-demo-insert-text" placeholder="Insert" />
+				<button class="button-input" id="control-demo-insert-btn">Insert</button>
+				<input type="number" class="text-box" id="control-demo-delete-text" placeholder="Delete" />
+				<button class="button-input" id="control-demo-delete-btn">Delete</button>
+				<input type="number" class="text-box" id="control-demo-find-text" placeholder="Find" />
+				<button class="button-input" id="control-demo-find-btn">Find</button>
+				<button class="button-input" id="control-demo-print">Print</button>
+				<button class="button-input" id="control-demo-history">View Observations History</button>
+				<button class="button-input" id="control-demo-reset">Reset</button>
+				<label style="display:none;"><input type="checkbox" id="control-demo-null">Show null Leaves</label>
+			</div>
 			</div>
 
-                        <div class="comment-box" style="margin:auto;padding-top:2%;height:15vh;">
+			<div class="comment-box" style="margin:auto;padding-top:2%;height:15vh;">
 			    <b>Observations</b>
 			    <p id="nextcomment"> </p>
 			</div>
-                        <canvas id="canvas" width="1200" height="500"></canvas>
 
-			<div id = "generalAnimationControlSection" style="display:none;">
+			<!-- Observations History Modal -->
+			<div id="historyModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5);">
+				<div style="background-color:white; margin:5% auto; padding:20px; border:1px solid #888; width:80%; max-height:70%; overflow-y:auto; border-radius:5px;">
+					<span id="closeModal" style="color:#aaa; float:right; font-size:28px; font-weight:bold; cursor:pointer;">&times;</span>
+					<h2>Observations History</h2>
+					<div id="historyContent" style="margin-top:20px;"></div>
+				</div>
+			</div>
+
+                        <canvas id="canvas" width="1200" height="500"></canvas>			<div id = "generalAnimationControlSection" style="display:none;">
 				<div id="GeneralAnimationControls">		
 				</div>
 			</div>

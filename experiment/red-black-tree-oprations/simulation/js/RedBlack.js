@@ -1,6 +1,16 @@
+// Global array to store observation history
+var observationsHistory = [];
+var lastObservation = ""; // Track last observation to prevent duplicates
+
 function displayComment(text)
 {
 	$('#nextcomment').html(text);
+	// Add to history if text is not empty and different from last observation
+	if(text && text.trim() !== "" && text !== lastObservation) {
+		var timestamp = new Date().toLocaleTimeString();
+		observationsHistory.push({time: timestamp, message: text});
+		lastObservation = text;
+	}
 }
 
 function RedBlack(am, w, h)
@@ -23,7 +33,7 @@ RedBlack.prototype.init = function(am, w, h)
 	this.commands = [];
 	this.startingX = w / 3;
 	this.print_max  = w - PRINT_HORIZONTAL_GAP;
-	this.first_print_pos_y  = h - 2 * PRINT_VERTICAL_GAP;
+	this.first_print_pos_y  = h / 2;  // Changed to center vertically (was h - 2 * PRINT_VERTICAL_GAP at bottom)
 
 
 	this.cmd("CreateLabel", 0, "", EXPLANITORY_TEXT_X, EXPLANITORY_TEXT_Y, 0);
@@ -50,33 +60,68 @@ RedBlack.prototype.addControls =  function()
 	this.findButton.onclick = this.findCallback.bind(this);
 	this.printButton = document.getElementById("control-demo-print");
 	this.printButton.onclick = this.printCallback.bind(this);
+	this.historyButton = document.getElementById("control-demo-history");
+	this.historyButton.onclick = this.showHistoryCallback.bind(this);
+	this.resetButton = document.getElementById("control-demo-reset");
+	this.resetButton.onclick = this.resetCallback.bind(this);
 	
 	this.showNullLeaves = document.getElementById("control-demo-null");
 	this.showNullLeaves.onclick = this.showNullLeavesCallback.bind(this);
-	this.showNullLeaves.checked = false;;
+	this.showNullLeaves.checked = false;
+	
+	// Setup modal close button
+	var modal = document.getElementById("historyModal");
+	var closeBtn = document.getElementById("closeModal");
+	closeBtn.onclick = function() {
+		modal.style.display = "none";
+	};
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	};
 }
 
 
+
+RedBlack.prototype.resetCallback = function(event)
+{
+	// First, clear observation history completely
+	while(observationsHistory.length > 0) {
+		observationsHistory.pop();
+	}
+	lastObservation = "";
+	
+	// Clear everything by skipping back all animations
+	while(this.animationManager.AnimationSteps.length > 0)
+	{
+		this.animationManager.skipBack();
+	}
+	
+	// Reset the tree state
+	this.treeRoot = null;
+	this.nextIndex = 1;
+	
+	// Clear and update UI elements without adding to history
+	$('#nextcomment').html("Tree reset - all elements cleared");
+}
 
 RedBlack.prototype.reset = function()
 {
 	this.nextIndex = 1;
 	this.treeRoot = null;
-	ptr=1;
-	stepschosen=[];
-	document.getElementById("nextcomment").innerHTML="";
-	document.getElementById("nextelement").innerHTML="";
-	for(k=0;k<insertedvaluelist.length;k++)
-	{
-		animationManager.skipBack();
-	}
-	this.insertButton.disabled=false
-	$('#nextcomment').html('Resetting the Tree');
+	
+	// Check if elements exist before trying to set innerHTML
+	var commentEl = document.getElementById("nextcomment");
+	if(commentEl) commentEl.innerHTML = "";
+	
+	var nextEl = document.getElementById("nextelement");
+	if(nextEl) nextEl.innerHTML = "";
 }
 
 
-var FIRST_PRINT_POS_X = 50;
-var PRINT_VERTICAL_GAP = 20;
+var FIRST_PRINT_POS_X = 300;  // Moved from 50 to center the print output
+var PRINT_VERTICAL_GAP = 30;  // Increased spacing for better readability
 var PRINT_HORIZONTAL_GAP = 50;
 
 var FOREGROUND_RED = "#AA0000";
@@ -166,7 +211,24 @@ RedBlack.prototype.printCallback = function(event)
 	this.implementAction(this.printTree.bind(this),"");						
 }
 
-
+RedBlack.prototype.showHistoryCallback = function(event)
+{
+	var modal = document.getElementById("historyModal");
+	var content = document.getElementById("historyContent");
+	
+	if(observationsHistory.length === 0) {
+		content.innerHTML = "<p style='color:#666;'>No observations recorded yet. Perform some operations to see observations.</p>";
+	} else {
+		var html = "<ol style='line-height:1.8;'>";
+		for(var i = 0; i < observationsHistory.length; i++) {
+			html += "<li><strong>[" + observationsHistory[i].time + "]</strong> " + observationsHistory[i].message + "</li>";
+		}
+		html += "</ol>";
+		content.innerHTML = html;
+	}
+	
+	modal.style.display = "block";
+}
 
 
 
@@ -189,16 +251,25 @@ RedBlack.prototype.printTree = function(unused)
 	if (this.treeRoot != null)
 	{
 		this.highlightID = this.nextIndex++;
+		
+		// Store the printed values to show in observations
+		this.printedValues = [];
+		
 		var firstLabel = this.nextIndex;
+		
 		this.cmd("CreateHighlightCircle", this.highlightID, HIGHLIGHT_COLOR, this.treeRoot.x, this.treeRoot.y);
 		this.xPosOfNextLabel = FIRST_PRINT_POS_X;
 		this.yPosOfNextLabel = this.first_print_pos_y;
 		this.printTreeRec(this.treeRoot);
 		this.cmd("Delete",this.highlightID);
 		this.cmd("Step");
-		for (var i = firstLabel; i < this.nextIndex; i++)
-			this.cmd("Delete", i);
-		this.nextIndex = this.highlightID;  /// Reuse objects.  Not necessary.
+		
+		// After printing is complete, show summary in Observations
+		var valuesString = this.printedValues.join(", ");
+		displayComment("In-Order Traversal (sorted): " + valuesString + " - Values displayed below the tree will remain visible until Reset.");
+		
+		// DON'T delete the labels - they should persist until Reset is clicked
+		// this.nextIndex stays as is so labels remain visible
 	}
 	return this.commands;
 }
@@ -219,6 +290,9 @@ RedBlack.prototype.printTreeRec = function(tree)
 	this.cmd("SetForegroundColor", nextLabelID, PRINT_COLOR);
 	this.cmd("Move", nextLabelID, this.xPosOfNextLabel, this.yPosOfNextLabel);
 	this.cmd("Step");
+	
+	// Store the value for the observation summary
+	this.printedValues.push(tree.data);
 	
 	this.xPosOfNextLabel +=  PRINT_HORIZONTAL_GAP;
 	if (this.xPosOfNextLabel > this.print_max)

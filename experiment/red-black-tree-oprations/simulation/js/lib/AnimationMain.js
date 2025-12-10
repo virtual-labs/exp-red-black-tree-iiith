@@ -719,6 +719,10 @@ function AnimationManager(objectManager)
 				{
 					var oldText = this.animatedObjects.getText(parseInt(nextCommand[1]), parseInt(nextCommand[3]));
 					this.animatedObjects.setText(parseInt(nextCommand[1]), nextCommand[2], parseInt(nextCommand[3]));
+					// Display text in observations if it's for label ID 0
+					if(parseInt(nextCommand[1]) === 0 && nextCommand[2] && nextCommand[2].trim() !== "") {
+						displayComment(nextCommand[2]);
+					}
 					if (oldText != undefined)
 					{
 						undoBlock.push(new UndoSetText(parseInt(nextCommand[1]), oldText, parseInt(nextCommand[3]) ));			
@@ -728,6 +732,10 @@ function AnimationManager(objectManager)
 				{
 					oldText = this.animatedObjects.getText(parseInt(nextCommand[1]), 0);
 					this.animatedObjects.setText(parseInt(nextCommand[1]), nextCommand[2], 0);
+					// Display text in observations if it's for label ID 0
+					if(parseInt(nextCommand[1]) === 0 && nextCommand[2] && nextCommand[2].trim() !== "") {
+						displayComment(nextCommand[2]);
+					}
 					if (oldText != undefined)
 					{
 						undoBlock.push(new UndoSetText(parseInt(nextCommand[1]), oldText, 0));	
