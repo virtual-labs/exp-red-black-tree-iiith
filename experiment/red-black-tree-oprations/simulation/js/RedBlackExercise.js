@@ -69,6 +69,7 @@ RedBlack.prototype.reset = function()
 	this.nextIndex = 1;
 	this.treeRoot = null;
 	ptr=1;
+	reviewStepIndex=0;
 	stepschosen=[];
 	document.getElementById("nextcomment").innerHTML="";
 	document.getElementById("nextelement").innerHTML="";
@@ -79,6 +80,9 @@ RedBlack.prototype.reset = function()
 	}
 	
 	this.insertButton.disabled=false
+	this.showStepsButton.disabled=true;
+	this.showStepsButton.style.backgroundColor="gray";
+	this.showStepsButton.style.border="gray";
 }
 
 
@@ -121,6 +125,7 @@ var steps=["left","right","right","rightrotate"]
 var reasons=["2 is lessser than 3,hence we go left","5 is greater than 3,hence we go right",
 "10 is greater than 3,no imbalance caused","12 is greater than 3,rotation done to remove imbalance"]
 var ptr=1
+var reviewStepIndex=0;
 
 
 
@@ -128,13 +133,15 @@ var ptr=1
 var stepschosen=[]
 RedBlack.prototype.generateCallback=function(event)
 {
-	
+	console.log("=== GENERATE ROOT CLICKED ===");
+	console.log("insertedvaluelist:", insertedvaluelist);
 	var insertedValue = parseInt(insertedvaluelist[0],10);
+	console.log("Generating root with value:", insertedValue);
 		if (insertedValue != "")
 		{
-			
+			console.log("Calling insertElement for root");
 				this.implementAction(this.insertElement.bind(this), insertedValue);
-				
+				console.log("Root created, setting next element to:", insertedvaluelist[1]);
 					document.getElementById("nextelement").innerHTML=insertedvaluelist[1]
 				
 					
@@ -146,7 +153,9 @@ RedBlack.prototype.generateCallback=function(event)
 
 RedBlack.prototype.submitCallback=function(event)
 {
-	
+	console.log("=== SUBMIT CLICKED ===");
+	console.log("Expected steps:", steps);
+	console.log("User chose steps:", stepschosen);
 	i=0;
 	wrong=false
 	wrongsteps=[];
@@ -185,7 +194,8 @@ RedBlack.prototype.submitCallback=function(event)
 	var k=1;
 	
 	ptr=1;
-	
+	reviewStepIndex=0; // Reset review index
+	console.log("Enabling Show Steps button, ptr reset to:", ptr, "reviewStepIndex reset to:", reviewStepIndex);
 	this.showStepsButton.disabled=false;	
 	this.showStepsButton.style.backgroundColor="#3297CF";
 		this.showStepsButton.style.border="#3297CF";
@@ -203,37 +213,38 @@ RedBlack.prototype.submitCallback=function(event)
 
 RedBlack.prototype.showStepsCallBack=function(event)
 {
-	
-	
+	console.log("=== SHOW STEPS CLICKED ===");
+	console.log("Current reviewStepIndex:", reviewStepIndex);
+	console.log("steps.length:", steps.length);
 
-		if(ptr<insertedvaluelist.length){
-		console.log("hey")
-		var insertedValue = parseInt(insertedvaluelist[ptr],10);
-		console.log(insertedValue)
-
-
-		if (insertedValue != "")
-		{
-
-			this.implementAction(this.insertElement.bind(this), insertedValue);
-			if(ptr+1<insertedvaluelist.length)
-			document.getElementById("nextelement").innerHTML=insertedvaluelist[ptr+1]
-			else
-			document.getElementById("nextelement").innerHTML="No More Values to insert"
-
+	if(reviewStepIndex < steps.length){
+		console.log("Showing step explanation:", reviewStepIndex);
+		var stepAction = steps[reviewStepIndex];
+		var stepReason = reasons[reviewStepIndex];
+		var insertedValue = insertedvaluelist[reviewStepIndex + 1]; // +1 because first element is root
+		
+		console.log("Step:", stepAction, "Value:", insertedValue, "Reason:", stepReason);
+		
+		document.getElementById("nextcomment").innerHTML = "Step " + (reviewStepIndex + 1) + ": Inserted " + insertedValue + " - " + stepReason;
+		
+		reviewStepIndex++;
+		
+		if(reviewStepIndex >= steps.length){
+			document.getElementById("nextcomment").innerHTML += "<br><br>All steps reviewed!";
+			this.showStepsButton.disabled=true;
+			this.showStepsButton.style.backgroundColor="gray";
+			this.showStepsButton.style.border="gray";
 		}
-
 	}
-	
-	
-	ptr=ptr+1
 
 }
 RedBlack.prototype.leftrotateCallback=function(event)
 {
-	
+	console.log("=== INSERT AND ROTATE LEFT CLICKED ===");
 	document.getElementById("nextcomment").innerHTML="Step chosen: insert left and rotate"
 	stepschosen.push("leftrotate")
+	console.log("Calling insertCallback to insert node immediately");
+	this.insertCallback(event, ptr);
 	this.shownext(this)
 	ptr+=1
 }
@@ -244,9 +255,11 @@ RedBlack.prototype.leftrotateCallback=function(event)
 
 RedBlack.prototype.rightrotateCallback=function(event)
 {
-	
+	console.log("=== INSERT AND ROTATE RIGHT CLICKED ===");
 	document.getElementById("nextcomment").innerHTML="Step chosen: insert right and rotate"
-	stepschosen.push("righrotate")
+	stepschosen.push("rightrotate")
+	console.log("Calling insertCallback to insert node immediately");
+	this.insertCallback(event, ptr);
 	this.shownext(this)
 	ptr+=1
 	
@@ -273,8 +286,12 @@ RedBlack.prototype.shownext=function(event)
 
 RedBlack.prototype.insertRightCallback=function(event)
 {
+	console.log("=== INSERT RIGHT CLICKED ===");
 	document.getElementById("nextcomment").innerHTML="Step chosen: insert right"
 	stepschosen.push("right")
+	console.log("stepschosen:", stepschosen);
+	console.log("Calling insertCallback to insert node immediately");
+	this.insertCallback(event, ptr);
 	this.shownext(this)
 	ptr+=1
 
@@ -286,10 +303,13 @@ RedBlack.prototype.insertRightCallback=function(event)
 
 RedBlack.prototype.insertLeftCallback = function(event)
 {
-	
+	console.log("=== INSERT LEFT CLICKED ===");
 	
 	document.getElementById("nextcomment").innerHTML="Step chosen: insert left"
 	stepschosen.push("left")
+	console.log("stepschosen:", stepschosen);
+	console.log("Calling insertCallback to insert node immediately");
+	this.insertCallback(event, ptr);
 	this.shownext(this)
 	ptr+=1
 	

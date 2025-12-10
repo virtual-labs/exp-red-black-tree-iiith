@@ -33,18 +33,13 @@
 		<button class="collapsible">Instructions</button>
 		<div class="content">
 			<ul>
-				<li>Click generate root to generate the root of the tree</li> 
-				<li> Check the value to be inserted next at the bottom</li>
-				<li> Choose the next step by clicking the appropriate button</li>
-				<li> Click submit to check your answers</li>
-				<li> Click show steps to view each steps</li>
-				<li> Keep clicking show steps till all the steps are viewed</li>
-				<li>You can decrease the <b>speed</b> of the animation by using the <b>animation slider</b>.</li>
-				<li>It is recommended that you set the speed to a minimum value to visualize each step properly.</li>
-				<li>To <b>insert</b> the an element in the tree, enter the value in the textbox before insert and then <b>click the INSERT button</b>. Follow same approach for other operations as well.</li>
-				<li>You can use the <b>Pause</b> button to pause the animation at any point of time.</li>
-				<li>After animation has been paused, click on the <b>Step Forward</b> and <b>Step Backward</b> button to step through the animation.</li>
-				<li>The <b>Skip Forward</b> and <b>Skip Backward</b> buttons can be used to undo and redo operations after they have been performed on the tree.</li>
+				<li>Click <b>Generate Root</b> to create the root node of the tree.</li>
+				<li>Check the <b>Next Element to be Inserted</b> section to see which value needs to be inserted next.</li>
+				<li>Choose the appropriate insertion step by clicking one of the buttons: <b>Insert Left</b>, <b>Insert Right</b>, <b>Insert and Rotate Left</b>, or <b>Insert and Rotate Right</b>.</li>
+				<li>The node will be inserted immediately and appear on the tree visualization.</li>
+				<li>After inserting all elements, click <b>Submit</b> to check if your choices were correct.</li>
+				<li>Click <b>Show Steps</b> repeatedly to view detailed explanations for each insertion step.</li>
+				<li>Use the <b>Reset</b> button to start over with a fresh tree.</li>
 			</ul>
 		</div> 
 	</div>
@@ -79,12 +74,12 @@
 				</div>
 			</div>
 
+			<canvas id="canvas" width="1200" height="500"></canvas>
+
 			<div id = "generalAnimationControlSection" style="display:none;">
 				<table id="GeneralAnimationControls">  
 				</table>		
 			</div>
-                        <canvas id="canvas" width="1200" height="500" >
-			</canvas>
 		</div> 
 	</div>
 	</body>
