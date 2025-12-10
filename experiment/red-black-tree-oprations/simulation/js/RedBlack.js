@@ -86,11 +86,15 @@ RedBlack.prototype.addControls =  function()
 
 RedBlack.prototype.resetCallback = function(event)
 {
-	// First, clear observation history completely
-	while(observationsHistory.length > 0) {
-		observationsHistory.pop();
+	// First, clear observation history completely (with safety check)
+	if(typeof observationsHistory !== 'undefined') {
+		while(observationsHistory.length > 0) {
+			observationsHistory.pop();
+		}
 	}
-	lastObservation = "";
+	if(typeof lastObservation !== 'undefined') {
+		lastObservation = "";
+	}
 	
 	// Clear everything by skipping back all animations
 	while(this.animationManager.AnimationSteps.length > 0)
