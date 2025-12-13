@@ -11,7 +11,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "Red Black trees will always have a maximum height of O (log n). Therefore, the searching, inserting, and deleting operations can be carried out in O (log n) time complexity even in the worst case."
+                "a": "Incorrect. O(n) would be the worst case for an unbalanced tree.",
+                "b": "Correct. Red Black trees will always have a maximum height of O (log n). Therefore, the searching, inserting, and deleting operations can be carried out in O (log n) time complexity even in the worst case.",
+                "c": "Incorrect. O(1) is not achievable for these operations in a tree structure.",
+                "d": "Incorrect. Option b correctly states the time complexity."
             },
             "difficulty": "intermediate"
         },
@@ -25,10 +28,10 @@
             },
             "correctAnswer": "c",
             "explanations": {
-                "a": "Increasing the height of a subtree may make the whole tree unbalanced in height which would mean that the tree no longer satisfies the definition of a Red Black tree.",
-                "b": "Decreasing the height of a subtree may make the whole tree unbalanced which would mean that the tree no longer satisfies the definition of a Red Black tree.",
-                "c": "The true purpose of rotations is to restructure the tree in such a way that the maximum height of O (log n) is maintained and the order of elements is not changed.",
-                "d": "Changing the order of elements defeats the true purpose of Rotations."
+                "a": "Incorrect. Increasing the height of a subtree may make the whole tree unbalanced in height which would mean that the tree no longer satisfies the definition of a Red Black tree.",
+                "b": "Incorrect. Decreasing the height of a subtree may make the whole tree unbalanced which would mean that the tree no longer satisfies the definition of a Red Black tree.",
+                "c": "Correct. The true purpose of rotations is to restructure the tree in such a way that the maximum height of O (log n) is maintained and the order of elements is not changed.",
+                "d": "Incorrect. Changing the order of elements defeats the true purpose of Rotations."
             },
             "difficulty": "intermediate"
         },
@@ -42,10 +45,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "a": "This would be applicable when Z is given as the root node.",
-                "b": "This would resolve all conflicts and ensure that no properties are violated.",
-                "c": "This would be applicable when the Z node, its parent node, and its grandparent node form a triangle instead of a line.",
-                "d": "Simple recoloring the grandparent will not be enough as it will still cause violations."
+                "a": "Incorrect. This would be applicable when Z is given as the root node.",
+                "b": "Correct. This would resolve all conflicts and ensure that no properties are violated.",
+                "c": "Incorrect. This would be applicable when the Z node, its parent node, and its grandparent node form a triangle instead of a line.",
+                "d": "Incorrect. Simple recoloring the grandparent will not be enough as it will still cause violations."
             },
             "difficulty": "advanced"
         },
@@ -59,9 +62,10 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Simply deleting the node would be enough as it does not cause any violation of any property of Red Black Trees.",
-                "b": "This would cause a violation of property of RB trees as the parent and child nodes both would be colored Black. Moreover, the purpose would be defeated as the node would still exist in the tree.",
-                "c": "Recoloring the parent node to Red would cause violation as both parent and grandparent would be colored Red then."
+                "a": "Correct. Simply deleting the node would be enough as it does not cause any violation of any property of Red Black Trees.",
+                "b": "Incorrect. This would cause a violation of property of RB trees as the parent and child nodes both would be colored Black. Moreover, the purpose would be defeated as the node would still exist in the tree.",
+                "c": "Incorrect. Recoloring the parent node to Red would cause violation as both parent and grandparent would be colored Red then.",
+                "d": "Incorrect. Option a correctly describes how to delete a red leaf node."
             },
             "difficulty": "beginner"
         },
@@ -73,8 +77,8 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Nodes with values smaller than the parent node will always be on the left subtree.",
-                "b": "This would help us to find a node whose value is greater than the root node as right subtree nodes will store value greater than that of the parent node."
+                "a": "Correct. Nodes with values smaller than the parent node will always be on the left subtree.",
+                "b": "Incorrect. This would help us to find a node whose value is greater than the root node as right subtree nodes will store value greater than that of the parent node."
             },
             "difficulty": "intermediate"
         }

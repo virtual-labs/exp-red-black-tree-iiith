@@ -10,7 +10,12 @@
                 "d": "None of these"
             },
             "correctAnswer": "c",
-            "explanations": {},
+            "explanations": {
+                "a": "Incorrect. Breadth and depth refer to traversal methods, not rotation types.",
+                "b": "Incorrect. These are not valid rotation types in Red Black Trees.",
+                "c": "Correct. The two types of rotations in Red Black Trees are Left Rotation and Right Rotation, which are used to maintain the tree's balance properties.",
+                "d": "Incorrect. Option c correctly identifies the two rotation types."
+            },
             "difficulty": "beginner"
         },
         {
@@ -21,7 +26,8 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "Rotations in Red Black Trees might end up changing the relation between nodes. Therefore, red nodes can change to black nodes and vice-versa."
+                "a": "Incorrect. Rotations in Red Black Trees might end up changing the relation between nodes. Therefore, red nodes can change to black nodes and vice-versa.",
+                "b": "Correct. Rotations in Red Black Trees might end up changing the relation between nodes. Therefore, red nodes can change to black nodes and vice-versa."
             },
             "difficulty": "beginner"
         },
@@ -35,10 +41,10 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Color restrictions are imposed so that a height balanced binary tree can be maintained and ultimately time complexities for Search, Insertion, and Deletion can be obtained in logarithmic time.",
-                "b": "Color restrictions do contribute to the special property of the Red Black Trees, however that is not their primary aim.",
-                "c": "Root node is of black color and so are children of red nodes. Just color will not be enough to differentiate between root nodes and other nodes in Red Black trees with multiple levels.",
-                "d": "Ideally, rotations can be performed anywhere in the Red Black Tree. There is no need to distinguish between nodes that can be or cannot be used for performing rotation."
+                "a": "Correct. Color restrictions are imposed so that a height balanced binary tree can be maintained and ultimately time complexities for Search, Insertion, and Deletion can be obtained in logarithmic time.",
+                "b": "Incorrect. Color restrictions do contribute to the special property of the Red Black Trees, however that is not their primary aim.",
+                "c": "Incorrect. Root node is of black color and so are children of red nodes. Just color will not be enough to differentiate between root nodes and other nodes in Red Black trees with multiple levels.",
+                "d": "Incorrect. Ideally, rotations can be performed anywhere in the Red Black Tree. There is no need to distinguish between nodes that can be or cannot be used for performing rotation."
             },
             "difficulty": "intermediate"
         },
@@ -50,7 +56,8 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Even though both AVL and Red Black trees are height balanced trees, when there is a considerable amount of insertion or/and deletion operations involved, it would be better to use Red Black trees. This is due to the fact that the number of rotations will be more in AVL Trees than in Red Black trees. Due to less number of rotations Red Black Trees perform better than AVL Trees in operations involving Insertion and/or Deletion."
+                "a": "Correct. Even though both AVL and Red Black trees are height balanced trees, when there is a considerable amount of insertion or/and deletion operations involved, it would be better to use Red Black trees. This is due to the fact that the number of rotations will be more in AVL Trees than in Red Black trees. Due to less number of rotations Red Black Trees perform better than AVL Trees in operations involving Insertion and/or Deletion.",
+                "b": "Incorrect. Even though both AVL and Red Black trees are height balanced trees, when there is a considerable amount of insertion or/and deletion operations involved, it would be better to use Red Black trees. This is due to the fact that the number of rotations will be more in AVL Trees than in Red Black trees. Due to less number of rotations Red Black Trees perform better than AVL Trees in operations involving Insertion and/or Deletion."
             },
             "difficulty": "advanced"
         },
@@ -64,7 +71,10 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Red Black Trees can be easily resized unlike Hash Tables where the user needs to perform Rehashing and rehashing is a time costly process. Moreover, if the ordering of the Hash Table is not done in an efficient manner and there exist many empty buckets of memory, it would result in memory wastage and time costs when dealing with large datasets. Red Black Trees will be the better of two in such cases."
+                "a": "Correct. Red Black Trees can be easily resized unlike Hash Tables where the user needs to perform Rehashing and rehashing is a time costly process. Moreover, if the ordering of the Hash Table is not done in an efficient manner and there exist many empty buckets of memory, it would result in memory wastage and time costs when dealing with large datasets. Red Black Trees will be the better of two in such cases.",
+                "b": "Incorrect. While being height balanced is a property of Red Black Trees, it's not the primary reason they're preferred over Hash Tables.",
+                "c": "Incorrect. While O(log n) time complexity is important, the main advantage over Hash Tables is the resizing and ordering capabilities.",
+                "d": "Incorrect. Option a correctly describes why Red Black Trees are better than Hash Tables in certain scenarios."
             },
             "difficulty": "advanced"
         }
