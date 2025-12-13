@@ -25,7 +25,8 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "Skew trees either have only one child or no child. Implementation of a height balanced binary tree ensures that such a case never arises as the maximum difference of height can only be of one between the subtrees. For further reading on skew trees, click here."
+                "a": "Incorrect. Height balanced binary trees actually help avoid the formation of skew trees.",
+                "b": "Correct. Skew trees either have only one child or no child. Implementation of a height balanced binary tree ensures that such a case never arises as the maximum difference of height can only be of one between the subtrees. For further reading on skew trees, click here."
             },
             "difficulty": "beginner"
         },
@@ -54,7 +55,8 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "a": "An empty tree is indeed height balanced as it does not have any subtrees. If there are no subtrees present, then the height difference between the subtrees cannot exceed 1, hence making an empty tree a height balanced tree."
+                "a": "Incorrect. An empty tree is indeed height balanced as it does not have any subtrees. If there are no subtrees present, then the height difference between the subtrees cannot exceed 1, hence making an empty tree a height balanced tree.",
+                "b": "Correct. An empty tree is height balanced because with no subtrees, there's no height difference to violate the balance property."
             },
             "difficulty": "intermediate"
         },
@@ -68,7 +70,10 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "b": "At every level of an AVL tree, a tree can be formed in such a way that the height difference between subtrees is not greater than 1. Let the number of nodes be \u2018n\u2019. Therefore there can be log(n) such levels since the height of the AVL tree is log(n)."
+                "a": "Correct. At every level of an AVL tree, a tree can be formed in such a way that the height difference between subtrees is not greater than 1. Let the number of nodes be ‘n’. Therefore there can be log(n) such levels since the height of the AVL tree is log(n).",
+                "b": "Incorrect. At every level of an AVL tree, a tree can be formed in such a way that the height difference between subtrees is not greater than 1. Let the number of nodes be ‘n’. Therefore there can be log(n) such levels since the height of the AVL tree is log(n).",
+                "c": "Incorrect. The maximum height difference is logarithmic, not constant.",
+                "d": "Incorrect. Option a correctly describes the maximum height difference."
             },
             "difficulty": "advanced"
         },
@@ -82,7 +87,10 @@
             },
             "correctAnswer": "d",
             "explanations": {
-                "a": "Let height of tree be \u2018H\u2019, then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is \u2018n\u2019 can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height."
+                "a": "Incorrect. Let height of tree be 'H', then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is 'n' can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height.",
+                "b": "Incorrect. This would be the worst case for an unbalanced tree, not an AVL tree.",
+                "c": "Incorrect. This is not the correct formula for AVL tree height.",
+                "d": "Correct. Let height of tree be 'H', then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is 'n' can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height."
             },
             "difficulty": "advanced"
         }
