@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the unique property of Red Black Trees that distinguishes them from a normal Binary Search Tree?",
+      "answers": {
+        "a": "They use colors Red and Black to represent nodes.",
+        "b": "They are height balanced.",
+        "c": "They guarantee O(log n) worst-case time complexity for insertion and deletion.",
+        "d": "None of these."
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Red Black Trees have nodes colored either red or black, which is a unique property not found in standard binary search trees. The root node is always black.",
+        "b": "Incorrect. Other trees, such as AVL trees, are also height balanced. This is not unique to Red Black Trees.",
+        "c": "Incorrect. AVL trees also guarantee O(log n) time complexity for insertion and deletion.",
+        "d": "Incorrect. Option a correctly identifies the unique property."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. If a node is red in a Red Black Tree, what can be determined about its parent node?",
+      "answers": {
+        "a": "Parent node is the root node.",
+        "b": "Color of parent node is black.",
+        "c": "Color of parent node is red.",
+        "d": "None of these."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The parent node does not have to be the root node.",
+        "b": "Correct. In Red Black Trees, a red node must have a black parent. Two consecutive red nodes are not allowed.",
+        "c": "Incorrect. Two consecutive red nodes are not allowed in Red Black Trees.",
+        "d": "Incorrect. Option b is correct."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Why were Red Black Trees invented and used?",
+      "answers": {
+        "a": "There was a need for a type of balanced tree that can be used to organize comparable data.",
+        "b": "There was a need for a colored balanced tree.",
+        "c": "There was a need for a tree data structure with O(log n) worst-case time complexity for insertion and deletion.",
+        "d": "None of these."
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Red Black Trees were invented to provide a balanced tree structure for organizing comparable data efficiently. The use of colors helps maintain balance and relationships between nodes, making them suitable for applications like kernel schedulers and data structures such as maps and sets.",
+        "b": "Incorrect. The use of colors alone is not sufficient; the logic behind balancing is essential.",
+        "c": "Incorrect. Other tree structures, like AVL trees, also provide O(log n) time complexity for insertion and deletion.",
+        "d": "Incorrect. Option a correctly describes the reason for their invention."
+      },
+      "difficulty": "intermediate"
+    }
+  ]
+}
