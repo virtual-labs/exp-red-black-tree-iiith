@@ -1,98 +1,99 @@
 {
-    "version": 2.0,
-    "questions": [
-        {
-            "question": "1. What is a height balanced binary tree?",
-            "answers": {
-                "a": "A binary tree whose subtrees differ in height by at most one.",
-                "b": "Only an empty tree.",
-                "c": "Any binary tree whose subtrees differ in height by at least two.",
-                "d": "None of these"
-            },
-            "correctAnswer": "a",
-            "explanations": {
-                "a": "Height balanced binary trees by definition are those trees whose left and right subtrees have a maximum height difference of 1. A height difference of greater than 1 will make the tree unbalanced.",
-                "b": "Although empty trees fall into the definition of a height balanced binary tree, they are not the only possible case for a height balanced binary tree to exist.",
-                "c": "If the heights of a binary tree's subtrees differ by at least two, then the tree is termed as unbalanced height tree."
-            },
-            "difficulty": "beginner"
-        },
-        {
-            "question": "2. Height balanced binary trees cannot be used to avoid formation of skew trees.",
-            "answers": {
-                "a": "True.",
-                "b": "False."
-            },
-            "correctAnswer": "b",
-            "explanations": {
-                "a": "Incorrect. Height balanced binary trees actually help avoid the formation of skew trees.",
-                "b": "Correct. Skew trees either have only one child or no child. Implementation of a height balanced binary tree ensures that such a case never arises as the maximum difference of height can only be of one between the subtrees. For further reading on skew trees, click here."
-            },
-            "difficulty": "beginner"
-        },
-        {
-            "question": "3. Which of the following is an AVL Tree?",
-            "answers": {
-                "a": "A self-balancing tree with at least 1 height difference.",
-                "b": "Any tree with exactly three children.",
-                "c": "A self-balancing tree with at most 3 height difference.",
-                "d": "A self-balancing tree with at most 1 height difference."
-            },
-            "correctAnswer": "d",
-            "explanations": {
-                "a": "If the height difference in the self-balancing tree becomes more than 1, then it would violate the definition of an AVL Tree.",
-                "b": "A tree with only three children could be formed in any order. It might even be a skew tree. Therefore, it is not necessary that any tree with exactly three children will be an AVL Tree.",
-                "c": "A self-balancing tree with height difference greater than 1 would violate the definition of an AVL tree and thus, cannot be classified as an AVL Tree.",
-                "d": "AVL trees are binary search trees that are height balancing. AVL Trees assure that the height difference is not greater than 1 by checking the respective heights of right and left sub-trees."
-            },
-            "difficulty": "intermediate"
-        },
-        {
-            "question": "4. An empty tree is height balanced.",
-            "answers": {
-                "a": "True",
-                "b": "False"
-            },
-            "correctAnswer": "b",
-            "explanations": {
-                "a": "Incorrect. An empty tree is indeed height balanced as it does not have any subtrees. If there are no subtrees present, then the height difference between the subtrees cannot exceed 1, hence making an empty tree a height balanced tree.",
-                "b": "Correct. An empty tree is height balanced because with no subtrees, there's no height difference to violate the balance property."
-            },
-            "difficulty": "intermediate"
-        },
-        {
-            "question": "5. If there are two different leaf nodes of an AVL tree, then what is the maximum possible height difference between them?",
-            "answers": {
-                "a": "0 or 1",
-                "b": "log(n), where n is the number of nodes",
-                "c": "n, where n is the number of nodes",
-                "d": "None of these"
-            },
-            "correctAnswer": "a",
-            "explanations": {
-                "a": "Correct. At every level of an AVL tree, a tree can be formed in such a way that the height difference between subtrees is not greater than 1. Let the number of nodes be ‘n’. Therefore there can be log(n) such levels since the height of the AVL tree is log(n).",
-                "b": "Incorrect. At every level of an AVL tree, a tree can be formed in such a way that the height difference between subtrees is not greater than 1. Let the number of nodes be ‘n’. Therefore there can be log(n) such levels since the height of the AVL tree is log(n).",
-                "c": "Incorrect. The maximum height difference is logarithmic, not constant.",
-                "d": "Incorrect. Option a correctly describes the maximum height difference."
-            },
-            "difficulty": "advanced"
-        },
-        {
-            "question": "6. If an AVL tree has n nodes, then what will be its maximum height?",
-            "answers": {
-                "a": "log(n)",
-                "b": "n",
-                "c": "log(n/2)",
-                "d": "n/2"
-            },
-            "correctAnswer": "d",
-            "explanations": {
-                "a": "Incorrect. Let height of tree be 'H', then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is 'n' can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height.",
-                "b": "Incorrect. This would be the worst case for an unbalanced tree, not an AVL tree.",
-                "c": "Incorrect. This is not the correct formula for AVL tree height.",
-                "d": "Correct. Let height of tree be 'H', then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is 'n' can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height."
-            },
-            "difficulty": "advanced"
-        }
-    ]
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is a height balanced binary tree?",
+      "answers": {
+        "a": "A binary tree whose subtrees differ in height by at most one.",
+        "b": "Only an empty tree.",
+        "c": "Any binary tree whose subtrees differ in height by at least two.",
+        "d": "None of these."
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. A height balanced binary tree is defined as a tree where the left and right subtrees of every node differ in height by at most one.",
+        "b": "Incorrect. While an empty tree is height balanced, it is not the only case.",
+        "c": "Incorrect. If the height difference is two or more, the tree is not height balanced.",
+        "d": "Incorrect. Option a is correct."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Height balanced binary trees cannot be used to avoid formation of skew trees.",
+      "answers": {
+        "a": "True.",
+        "b": "False."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Height balanced binary trees are specifically designed to prevent the formation of skew trees.",
+        "b": "Correct. By maintaining a maximum height difference of one between subtrees, height balanced binary trees avoid skew trees, which have only one child or no child."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is an AVL Tree?",
+      "answers": {
+        "a": "A self-balancing tree with at least 1 height difference.",
+        "b": "Any tree with exactly three children.",
+        "c": "A self-balancing tree with at most 3 height difference.",
+        "d": "A self-balancing tree with at most 1 height difference."
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. An AVL tree must have a height difference of at most 1 between subtrees.",
+        "b": "Incorrect. The number of children does not determine if a tree is AVL.",
+        "c": "Incorrect. A height difference greater than 1 violates the AVL property.",
+        "d": "Correct. AVL trees are binary search trees that maintain a height difference of at most 1 between left and right subtrees."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. An empty tree is height balanced.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. An empty tree is height balanced because it has no subtrees, so the height difference is zero.",
+        "b": "Correct. With no subtrees, an empty tree cannot violate the balance property, so it is height balanced."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. If there are two different leaf nodes of an AVL tree, what is the maximum possible height difference between them?",
+      "answers": {
+        "a": "0 or 1",
+        "b": "log(n), where n is the number of nodes",
+        "c": "n, where n is the number of nodes",
+        "d": "None of these."
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. In an AVL tree, the height difference between any two leaf nodes is at most 1, due to the balancing property.",
+        "b": "Incorrect. The height difference is not logarithmic; it is at most 1.",
+        "c": "Incorrect. The height difference is not linear in the number of nodes.",
+        "d": "Incorrect. Option a is correct."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "6. If an AVL tree has n nodes, then what will be its maximum height?",
+      "answers": {
+        "a": "log(n)",
+        "b": "n",
+        "c": "log(n/2)",
+        "d": "n/2"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Let height of tree be 'H', then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is 'n' can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height.",
+        "b": "Incorrect. This would be the worst case for an unbalanced tree, not an AVL tree.",
+        "c": "Incorrect. This is not the correct formula for AVL tree height.",
+        "d": "Correct. Let height of tree be 'H', then number of nodes which sum to n can be written in terms of height as N(H)=N(H-1)+1+N(H-2). Since N(H) which is 'n' can be written in terms of height as the beside recurrence relation which on solving gives N(H)= O(log n) as worst case height."
+      },
+      "difficulty": "advanced"
+    }
+  ]
 }
